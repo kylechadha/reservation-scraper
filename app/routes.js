@@ -1,4 +1,6 @@
-var async      = require("async");
+var fs      = require('fs');
+var async      = require('async');
+var request    = require('request');
 var cheerio    = require('cheerio');
 var Restaurant = require('./models/restaurant');
 
@@ -11,27 +13,56 @@ module.exports = function(app) {
     res.render('layout');
   });
 
-  // Sign Up Route
+  // Scraper Route
   app.post('/', function(req, res, next) {
 
     var json = {},
         url = 'http://www.opentable.com/s/?datetime=2014-11-14%2019:30&covers=4&metroid=4&regionids=5&showmap=false&popularityalgorithm=NameSearches&tests=EnableMapview,ShowPopularitySortOption,srs,customfilters&sort=Popularity&excludefields=Description&from=0';
 
-    request(url, function(error, response, html) {
+    async.series([
 
-      if (!error) {
+      function(callback) {
 
-        var $ = cheerio.load(html)
+        request(url, function(error, response, html) {
 
-        $('.columns_block li').filter(function() {
+          if (!error) {
+
+            console.log('URL Reached. Scraper running.');
+            var $ = cheerio.load(html);
+
+            $('#search_results_table tbody tr').each(function(key, value) {
+
+              var restaurant = $(this),
+                  restaurantName = restaurant.find('.rest-content a').text();
+
+              json[restaurantName] = {};
+              json[restaurantName]['name'] = restaurantName;
+
+            });
+
+            callback(null, 'one');
+
+          }
+          else {
+            console.log(error);
+          }
 
         });
 
+      },
 
+      function(callback) {
+        callback(null, 'two')
       }
-      else {
-        console.log(error);
-      }
+
+
+    ], function() {
+      
+      fs.writeFile('resturants.json', JSON.stringify(json, null, 4), function(err) {
+        console.log('File successfully written.')
+      });
+
+      res.send('Scraping Complete.');
 
     });
 
