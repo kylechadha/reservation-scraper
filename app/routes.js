@@ -33,10 +33,32 @@ module.exports = function(app) {
             $('#search_results_table tbody tr').each(function(key, value) {
 
               var restaurant = $(this),
-                  restaurantName = restaurant.find('.rest-content a').text();
+                  name,
+                  url,
+                  content,
+                  neighborhood,
+                  cuisine,
+                  reviewCount,
+                  slots,
+                  timeWindow;
 
-              json[restaurantName] = {};
-              json[restaurantName]['name'] = restaurantName;
+              name = restaurant.find('.rest-content a').text();
+              url = 'http://www.opentable.com' + restaurant.find('.rest-content a').attr('href');
+
+              content = restaurant.find('.rest-content div').text().split('|');
+              neighborhood = content[0].trim();
+              cuisine = content[1].trim();
+
+              reviewCount = restaurant.find('.reviews').text().trim();
+
+              slots = restaurant.find('.timeslots li')
+
+              json[name] = {};
+              json[name]['name'] = name;
+              json[name]['url'] = url;
+              json[name]['neighborhood'] = neighborhood;
+              json[name]['cuisine'] = cuisine;
+              json[name]['reviewCount'] = reviewCount;
 
             });
 
