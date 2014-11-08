@@ -6,12 +6,10 @@
     "express": "~4.0.0",
     "morgan": "~1.0.0",
     "body-parser": "~1.0.0",
-    "cookie-parser": "~1.0.0",
     "method-override": "~1.0.0",
     "express-session": "~1.0.0",
     "mongoose": "~3.8.1",
-    "ejs": "~0.8.5",
-    "connect-flash": "~0.1.1"
+    "ejs": "~0.8.5"
   },
   "devDependencies": {
     "grunt": "~0.4.5",

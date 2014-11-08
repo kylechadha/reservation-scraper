@@ -1,11 +1,11 @@
-var User = require('./models/user');
+var Restaurant = require('./models/restaurant');
 
-module.exports = function(app, passport) {
+module.exports = function(app) {
 
   // Index Route
   // ----------------------------------------------
   app.get('/', function(req, res) {
-    res.render('layout', { message: req.flash('userMessage') });
+    res.render('layout');
   });
 
   // Sign Up Route
@@ -25,3 +25,5 @@ module.exports = function(app, passport) {
     // });
 
   });
+
+};
