@@ -30,7 +30,7 @@ module.exports = function(app) {
             console.log('URL Reached. Scraper running.');
             var $ = cheerio.load(html);
 
-            $('#search_results_table tbody tr').each(function(key, value) {
+            $('#search_results_table tbody tr').each(function() {
 
               var restaurant = $(this),
                   name,
@@ -40,6 +40,7 @@ module.exports = function(app) {
                   cuisine,
                   reviewCount,
                   slots,
+                  slotsArray,
                   timeWindow;
 
               name = restaurant.find('.rest-content a').text();
@@ -51,7 +52,16 @@ module.exports = function(app) {
 
               reviewCount = restaurant.find('.reviews').text().trim();
 
-              slots = restaurant.find('.timeslots li')
+              slots = restaurant.find('.timeslots li');
+              slotsArray = [];
+              slots.each(function() {
+                var slot = $(this);
+                if (slot.find('a').length > 0) {
+                  slotsArray.push(slot.find('a').text().trim())
+                } else {
+                  slotsArray.push('unavailable');
+                }
+              })
 
               json[name] = {};
               json[name]['name'] = name;
@@ -59,6 +69,7 @@ module.exports = function(app) {
               json[name]['neighborhood'] = neighborhood;
               json[name]['cuisine'] = cuisine;
               json[name]['reviewCount'] = reviewCount;
+              json[name]['slots'] = slotsArray;
 
             });
 
