@@ -1,17 +1,19 @@
 
 // Application Set Up
 // ----------------------------------------------
-var express  = require('express');
-var app      = express();
-var path     = require('path');
-var port     = process.env.PORT || 8080;
+var express = require('express');
+var app     = express();
+var path    = require('path');
+var port    = process.env.PORT || 8080;
 
-var morgan       = require('morgan');
-var bodyParser   = require('body-parser');
-var session      = require('express-session');
+var morgan     = require('morgan');
+var bodyParser = require('body-parser');
+var session    = require('express-session');
 
 var mongoose = require('mongoose');
 var configDB = require('./config/database.js');
+var cheerio  = require('cheerio');
+var async    = require('async');
 
 
 // Configuration
