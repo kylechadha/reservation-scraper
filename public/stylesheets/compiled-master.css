@@ -1,0 +1,22 @@
+html, body {
+  height: 100%; }
+
+.flex {
+  display: flex;
+  justify-content: center; }
+
+.index {
+  height: 100%; }
+  .index .index__main {
+    height: 100%; }
+    .index .index__main .index__main__teaser {
+      height: 100%; }
+      .index .index__main .index__main__teaser img {
+        max-height: 100%;
+        max-width: 100%;
+        float: right; }
+    .index .index__main .index__main__signup {
+      width: 40%;
+      align-self: center; }
+      .index .index__main .index__main__signup form {
+        width: 85%; }
