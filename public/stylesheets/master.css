@@ -32,6 +32,9 @@ a {
   .bootstrap-datetimepicker-widget td.active:hover, .bootstrap-datetimepicker-widget td.active:active, .bootstrap-datetimepicker-widget td.active:focus {
     background-color: #bdaa78; }
 
+.form-group {
+  margin-right: 10px; }
+
 .spinner {
   display: none;
   width: 20px;

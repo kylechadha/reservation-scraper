@@ -2,6 +2,7 @@ var fs      = require('fs');
 var path    = require('path');
 var mime    = require('mime');
 var async      = require('async');
+var moment     = require('moment')
 var request    = require('request');
 var cheerio    = require('cheerio');
 var scraper    = require('./services/scraper')
@@ -20,11 +21,19 @@ module.exports = function(app) {
   app.post('/', function(req, res, next) {
 
     var jsonData = {},
-        csvData = { data : "name,url,neighborhood,cuisine,review_count,time_window\r\n" },
-        availableUrl = 'http://www.opentable.com/s/?datetime=2014-11-14%2019:30&covers=4&metroid=4&regionids=5&showmap=false&popularityalgorithm=NameSearches&tests=EnableMapview,ShowPopularitySortOption,srs,customfilters&sort=Popularity&excludefields=Description&from=0',
+        csvData = { data : "name,url,neighborhood,cuisine,review_count,time_window\r\n" }
+
+    var resDateTime = moment(req.body.date, "MM/DD/YYYY HH:mm A"),
+        resDate = resDateTime.format('YYYY-MM-DD'),
+        resTime = resDateTime.format('HH:mm');
+
+    var availableUrl = 'http://www.opentable.com/s/?datetime=' + resDate + '%20' + resTime + '&covers=' + req.body.people + '&metroid=4&regionids=5&showmap=false&popularityalgorithm=NameSearches&tests=EnableMapview,ShowPopularitySortOption,srs,customfilters&sort=Popularity&excludefields=Description&from=0',
         unavailableUrl = availableUrl + '&onlyunavailable=true';
 
-    // Change to parallel and see if data output changes at all over a few runs
+    console.log(availableUrl);
+    console.log(unavailableUrl);
+
+    // We're running these in series right now so the unavailable locations follow the available ones, but this could also be run in parallel.
     async.series([
 
       function(callback) {
