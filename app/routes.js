@@ -41,7 +41,16 @@ module.exports = function(app) {
                   reviewCount,
                   slots,
                   slotsArray,
+                  peakStart,
+                  peakEnd,
+                  startTime,
+                  endTime,
                   timeWindow;
+
+              var parseTime = function(s) {
+                 var c = s.split(':');
+                 return parseInt(c[0]) * 60 + parseInt(c[1]);
+              }
 
               name = restaurant.find('.rest-content a').text();
               url = 'http://www.opentable.com' + restaurant.find('.rest-content a').attr('href');
@@ -52,15 +61,36 @@ module.exports = function(app) {
 
               reviewCount = restaurant.find('.reviews').text().trim();
 
-              slots = restaurant.find('.timeslots li');
               slotsArray = [];
+              slots = restaurant.find('.timeslots li');
               slots.each(function() {
                 var slot = $(this);
                 if (slot.find('a').length > 0) {
-                  slotsArray.push(slot.find('a').text().trim())
+                  slotsArray.push(slot.find('a').attr('href').split('&sd=')[1].split(' ')[1].substring(0,5));
                 } else {
                   slotsArray.push('unavailable');
                 }
+              })
+
+              peakStart = '16:59';
+              peakEnd = '22:01';
+              timeWindow = 0;
+              startTime = peakStart;
+              slotsArray.forEach(function(slot, index) {
+
+                if (index !== 4) {
+                  if (slot !== 'unavailable') {
+                    if (slotsArray[index - 1] == 'unavailable') {
+                      timeWindow = timeWindow + (parseTime(slot) - parseTime(startTime));
+                    }
+                    startTime = slot;
+                  }
+                } else if (index == 4) {
+                  if (slot == 'unavailable') {
+                    timeWindow = timeWindow + (parseTime(peakEnd) - parseTime(startTime));
+                  }
+                }
+
               })
 
               json[name] = {};
@@ -70,6 +100,7 @@ module.exports = function(app) {
               json[name]['cuisine'] = cuisine;
               json[name]['reviewCount'] = reviewCount;
               json[name]['slots'] = slotsArray;
+              json[name]['timeWindow'] = timeWindow;
 
             });
 
