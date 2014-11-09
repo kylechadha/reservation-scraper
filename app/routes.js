@@ -1,4 +1,6 @@
 var fs      = require('fs');
+var path    = require('path');
+var mime    = require('mime');
 var async      = require('async');
 var request    = require('request');
 var cheerio    = require('cheerio');
@@ -96,7 +98,7 @@ module.exports = function(app) {
             } else {
               timeWindow = parseTime(peakEnd) - parseTime(peakStart);
             }
-            
+
             hours = Math.floor(timeWindow / 60);
             minutes = timeWindow %= 60;
             timeWindow = hours + ':' + ('0' + minutes).slice(-2);
@@ -156,9 +158,29 @@ module.exports = function(app) {
 
   });
 
+  // Download Route
+  // ----------------------------------------------
+  app.get('/download', function(req, res) {
+
+    var file = 'restaurants.csv';
+
+    var filename = path.basename(file);
+    var mimetype = mime.lookup(file);
+
+    res.setHeader('Content-disposition', 'attachment; filename=' + filename);
+    res.setHeader('Content-type', mimetype);
+
+    var filestream = fs.createReadStream(file);
+    filestream.pipe(res);
+
+  });
+
+
   // Users Route
   // ----------------------------------------------
   app.get('/restaurants', function(req, res) {
+
+    res.render('restaurants');
 
     // User.find(function(err, users) {
     //   if (err) {
