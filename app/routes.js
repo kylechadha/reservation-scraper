@@ -8,6 +8,10 @@ var cheerio    = require('cheerio');
 var scraper    = require('./services/scraper')
 
 
+//
+// Routes
+// -----------------------------------
+
 module.exports = function(app) {
 
   // Index Route
@@ -23,6 +27,7 @@ module.exports = function(app) {
     var jsonData = {},
         csvData = { data : "name,url,neighborhood,cuisine,review_count,time_window\r\n" }
 
+    // Use moment.js to manage time parsing.
     var resDateTime = moment(req.body.date, "MM/DD/YYYY HH:mm A"),
         resDate = resDateTime.format('YYYY-MM-DD'),
         resTime = resDateTime.format('HH:mm');
@@ -30,9 +35,11 @@ module.exports = function(app) {
     var availableUrl = 'http://www.opentable.com/s/?datetime=' + resDate + '%20' + resTime + '&covers=' + req.body.people + '&metroid=4&regionids=5&showmap=false&popularityalgorithm=NameSearches&tests=EnableMapview,ShowPopularitySortOption,srs,customfilters&sort=Popularity&excludefields=Description&from=0',
         unavailableUrl = availableUrl + '&onlyunavailable=true';
 
-    // We're running these in series right now so the unavailable locations follow the available ones, but this could also be run in parallel.
+    // Use async to scrape the available and unavailable restaurant locations.
+    // We're running these in series right now so the unavailable locations follow the available ones, but this could instead be run in parallel.
     async.series([
 
+      // Send all the information to the scraper service we've defined in scraper.js
       function(callback) {
         scraper(availableUrl, jsonData, csvData, callback);
       },
@@ -43,6 +50,7 @@ module.exports = function(app) {
 
     ], function() {
       
+      // Write the json and csv files.
       fs.writeFile('restaurants.json', JSON.stringify(jsonData, null, 4), function(error) {
         if (!error) {
           console.log('JSON file successfully written.')
@@ -55,6 +63,7 @@ module.exports = function(app) {
         }
       })
 
+      // Render the page with the restaurant data.
       res.render('layout', {restaurants: jsonData});
 
     });
@@ -66,6 +75,7 @@ module.exports = function(app) {
   // ----------------------------------------------
   app.get('/download', function(req, res) {
 
+    // Define the location of the csv file.
     var file = 'restaurants.csv';
 
     var filename = path.basename(file);
@@ -74,6 +84,7 @@ module.exports = function(app) {
     res.setHeader('Content-disposition', 'attachment; filename=' + filename);
     res.setHeader('Content-type', mimetype);
 
+    // Set the download to begin.
     var filestream = fs.createReadStream(file);
     filestream.pipe(res);
 

@@ -1,9 +1,12 @@
 var mongoose = require('mongoose');
 
+//
+// Restaurant Model (unused)
+// -----------------------------------
+
 
 // Schema
 // ----------------------------------------------
-
 var restaurantSchema = mongoose.Schema({
 
   name : String

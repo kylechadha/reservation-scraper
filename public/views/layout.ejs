@@ -3,6 +3,7 @@
 
 <head>
 
+  <!-- Title and Fav Icon -->
   <title>Reserve Scraper</title>
   <link rel="shortcut icon" href="https://s3.amazonaws.com/reserve.com/favicon.ico" type="image/x-icon">
 
@@ -26,6 +27,7 @@
 
 <body>
 
+  <!-- Nav Bar -->
   <nav class="navbar navbar-default" role="navigation">
     <div class="container">
       <div class="navbar-header">
@@ -40,12 +42,15 @@
     </div>
   </nav>
 
+  <!-- Partials -->
   <% if (typeof restaurants == 'undefined') { %>
     <% include index.ejs %>
   <% } else {  %>
     <% include restaurants.ejs %>
   <% } %>
 
+
+<!-- LiveReload -->
 <script src="//localhost:35729/livereload.js"></script>
 </body>
 

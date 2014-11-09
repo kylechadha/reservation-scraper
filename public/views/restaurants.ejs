@@ -25,7 +25,7 @@
         <% for(var key in restaurants) { %>
           <tr>
             <td><%= restaurants[key]['name'] %></td>
-            <td><a href="<%= restaurants[key]['url'] %>">Link</a></td>
+            <td><a target="_blank" href="<%= restaurants[key]['url'] %>">Link</a></td>
             <td><%= restaurants[key]['neighborhood'] %></td>
             <td><%= restaurants[key]['cuisine'] %></td>
             <td><%= restaurants[key]['reviewCount'] %></td>
