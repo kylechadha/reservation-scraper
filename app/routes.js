@@ -17,6 +17,7 @@ module.exports = function(app) {
   app.post('/', function(req, res, next) {
 
     var json = {},
+        csv = "name,url,neighborhood,cuisine,review_count,time_window\r\n",
         url = 'http://www.opentable.com/s/?datetime=2014-11-14%2019:30&covers=4&metroid=4&regionids=5&showmap=false&popularityalgorithm=NameSearches&tests=EnableMapview,ShowPopularitySortOption,srs,customfilters&sort=Popularity&excludefields=Description&from=0';
 
     async.series([
@@ -97,13 +98,15 @@ module.exports = function(app) {
               minutes = timeWindow %= 60;
               timeWindow = hours +':'+ ('0'+minutes).slice(-2);
 
+              csv = csv + '"' + name + '","' + url + '",' + neighborhood + ',"' + cuisine + '",' + reviewCount + ',' + timeWindow + '\r\n';
+
               json[name] = {};
               json[name]['name'] = name;
               json[name]['url'] = url;
               json[name]['neighborhood'] = neighborhood;
               json[name]['cuisine'] = cuisine;
               json[name]['reviewCount'] = reviewCount;
-              json[name]['slots'] = slotsArray;
+              json[name]['slots'] = slots;
               json[name]['timeWindow'] = timeWindow;
 
             });
@@ -126,9 +129,17 @@ module.exports = function(app) {
 
     ], function() {
       
-      fs.writeFile('resturants.json', JSON.stringify(json, null, 4), function(err) {
-        console.log('File successfully written.')
-      });
+      // fs.writeFile('resturants.json', JSON.stringify(json, null, 4), function(error) {
+      //   if (!error) {
+      //     console.log('JSON file successfully written.')
+      //   }
+      // });
+
+      fs.writeFile('restaurants.csv', csv, function(error) {
+        if (!error) {
+          console.log('CSV file successfully written.')
+        }
+      })
 
       res.send('Scraping Complete.');
 
