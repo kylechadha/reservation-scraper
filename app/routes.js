@@ -93,6 +93,10 @@ module.exports = function(app) {
 
               })
 
+              hours = Math.floor(timeWindow / 60);
+              minutes = timeWindow %= 60;
+              timeWindow = hours +':'+ ('0'+minutes).slice(-2);
+
               json[name] = {};
               json[name]['name'] = name;
               json[name]['url'] = url;
