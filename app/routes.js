@@ -151,7 +151,7 @@ module.exports = function(app) {
         }
       })
 
-      res.render('restaurants', {restaurants: jsonData});
+      res.render('layout', {restaurants: jsonData});
 
     });
 

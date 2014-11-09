@@ -1,55 +1,7 @@
-<!doctype html>
-<html>
+<div class="index container">
 
-<head>
+  <form action="/download" method="get">
+    <button type="submit" class="btn btn-primary">Download as CSV</button>
+  </form>
 
-  <title>Reserve</title>
-
-  <!-- Bootstrap, Font Awesome, and our Compiled SCSS > CSS File -->
-  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
-  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
-  <link rel="stylesheet" href="stylesheets/master.css">
-
-  <!-- Dependencies: jQuery -->
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-
-  <!-- Javascript Files -->
-  <script src="javascript/master.js"></script>
-</head>
-
-<body>
-
-  <nav class="navbar navbar-default" role="navigation">
-    <div class="container">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#">Reserve</a>
-      </div>
-
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="/restaurants">Restaurants</a></li>
-        </ul>
-      </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-  </nav>
-
-  <div class="index container">
-
-    <form action="/download" method="get">
-      <button type="submit" class="btn btn-primary">Download as CSV</button>
-    </form>
-
-  </div>
-
-<script src="//localhost:35729/livereload.js"></script>
-</body>
-
-</html>
+</div>
