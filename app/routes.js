@@ -17,7 +17,7 @@ module.exports = function(app) {
   app.post('/', function(req, res, next) {
 
     var jsonData = {},
-        csvData = "name,url,neighborhood,cuisine,review_count,time_window\r\n",
+        csvData = { data : "name,url,neighborhood,cuisine,review_count,time_window\r\n" },
         availableUrl = 'http://www.opentable.com/s/?datetime=2014-11-14%2019:30&covers=4&metroid=4&regionids=5&showmap=false&popularityalgorithm=NameSearches&tests=EnableMapview,ShowPopularitySortOption,srs,customfilters&sort=Popularity&excludefields=Description&from=0',
         unavailableUrl = availableUrl + '&onlyunavailable=true';
 
@@ -96,7 +96,7 @@ module.exports = function(app) {
             minutes = timeWindow %= 60;
             timeWindow = hours +':'+ ('0'+minutes).slice(-2);
 
-            csv = csv + '"' + name + '","' + url + '","' + neighborhood + '","' + cuisine + '","' + reviewCount + '",' + timeWindow + '\r\n';
+            csv['data'] = csv['data'] + '"' + name + '","' + url + '","' + neighborhood + '","' + cuisine + '","' + reviewCount + '",' + timeWindow + '\r\n';
 
             json[name] = {};
             json[name]['name'] = name;
@@ -107,12 +107,14 @@ module.exports = function(app) {
             json[name]['slots'] = slotsArray;
             json[name]['timeWindow'] = timeWindow;
 
+
           });
 
-          callback(null, 'one');
+          callback(null);
+
         }
         else {
-          console.log(error);
+          callback(error);
         }
 
       });
@@ -148,13 +150,13 @@ module.exports = function(app) {
         }
       });
 
-      fs.writeFile('restaurants.csv', csvData, function(error) {
+      fs.writeFile('restaurants.csv', csvData['data'], function(error) {
         if (!error) {
           console.log('CSV file successfully written.')
         }
       })
 
-      res.render('restaurants', {restaurants: json});
+      res.render('restaurants', {restaurants: jsonData});
 
     });
 
