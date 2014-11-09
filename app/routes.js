@@ -6,7 +6,6 @@ var moment     = require('moment')
 var request    = require('request');
 var cheerio    = require('cheerio');
 var scraper    = require('./services/scraper')
-var Restaurant = require('./models/restaurant');
 
 
 module.exports = function(app) {
@@ -18,6 +17,7 @@ module.exports = function(app) {
   });
 
   // Scraper Route
+  // ----------------------------------------------
   app.post('/', function(req, res, next) {
 
     var jsonData = {},
@@ -29,9 +29,6 @@ module.exports = function(app) {
 
     var availableUrl = 'http://www.opentable.com/s/?datetime=' + resDate + '%20' + resTime + '&covers=' + req.body.people + '&metroid=4&regionids=5&showmap=false&popularityalgorithm=NameSearches&tests=EnableMapview,ShowPopularitySortOption,srs,customfilters&sort=Popularity&excludefields=Description&from=0',
         unavailableUrl = availableUrl + '&onlyunavailable=true';
-
-    console.log(availableUrl);
-    console.log(unavailableUrl);
 
     // We're running these in series right now so the unavailable locations follow the available ones, but this could also be run in parallel.
     async.series([
@@ -81,21 +78,5 @@ module.exports = function(app) {
     filestream.pipe(res);
 
   });
-
-
-  // // Restaurants Route
-  // // ----------------------------------------------
-  // app.get('/restaurants', function(req, res) {
-
-  //   res.render('restaurants');
-
-  //   // User.find(function(err, users) {
-  //   //   if (err) {
-  //   //     res.send(err);
-  //   //   }
-  //   //   res.json(users);
-  //   // });
-
-  // });
 
 };
