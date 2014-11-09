@@ -1,12 +1,11 @@
 var request    = require('request');
 var cheerio    = require('cheerio');
 
-module.exports = function(url, json, csv, callback) {
+module.exports = function(queryUrl, json, csv, callback) {
 
-  request(url, function(error, response, html) {
+  request(queryUrl, function(error, response, html) {
 
     if (!error) {
-
       console.log('URL Reached. Scraper running.');
       var $ = cheerio.load(html);
 
@@ -43,41 +42,46 @@ module.exports = function(url, json, csv, callback) {
 
         slotsArray = [];
         slots = restaurant.find('.timeslots li');
-        slots.each(function() {
-          var slot = $(this);
-          if (slot.find('a').length > 0) {
-            slotsArray.push(slot.find('a').attr('href').split('&sd=')[1].split(' ')[1].substring(0,5));
-          } else {
-            slotsArray.push('unavailable');
-          }
-        })
-
         peakStart = '16:59';
         peakEnd = '22:01';
         timeWindow = 0;
-        startTime = peakStart;
-        slotsArray.forEach(function(slot, index) {
 
-          if (index !== 4) {
-            if (slot !== 'unavailable') {
-              if (slotsArray[index - 1] == 'unavailable') {
-                timeWindow = timeWindow + (parseTime(slot) - parseTime(startTime));
+        if (slots.length > 0) {
+          slots.each(function() {
+            var slot = $(this);
+            if (slot.find('a').length > 0) {
+              slotsArray.push(slot.find('a').attr('href').split('&sd=')[1].split(' ')[1].substring(0,5));
+            } else {
+              slotsArray.push('unavailable');
+            }
+          })
+
+          startTime = peakStart;
+          slotsArray.forEach(function(slot, index) {
+
+            if (index !== 4) {
+              if (slot !== 'unavailable') {
+                if (slotsArray[index - 1] == 'unavailable') {
+                  timeWindow = timeWindow + (parseTime(slot) - parseTime(startTime));
+                }
+                startTime = slot;
               }
-              startTime = slot;
+            } else if (index == 4) {
+              if (slot == 'unavailable') {
+                timeWindow = timeWindow + (parseTime(peakEnd) - parseTime(startTime));
+              }
             }
-          } else if (index == 4) {
-            if (slot == 'unavailable') {
-              timeWindow = timeWindow + (parseTime(peakEnd) - parseTime(startTime));
-            }
-          }
 
-        })
+          })
+        } else {
+          timeWindow = parseTime(peakEnd) - parseTime(peakStart);
+        }
 
         hours = Math.floor(timeWindow / 60);
         minutes = timeWindow %= 60;
-        timeWindow = hours +':'+ ('0'+minutes).slice(-2);
+        timeWindow = hours + ':' + ('0' + minutes).slice(-2);
 
-        csv = csv + '"' + name + '","' + url + '","' + neighborhood + '","' + cuisine + '","' + reviewCount + '",' + timeWindow + '\r\n';
+        csv['data'] = csv['data'] + '"' + name + '","' + url + '","' + neighborhood + '","' + cuisine + '","' + reviewCount + '",' + timeWindow + '\r\n';
 
         json[name] = {};
         json[name]['name'] = name;
@@ -90,11 +94,11 @@ module.exports = function(url, json, csv, callback) {
 
       });
 
-      callback(null, 'one');
+      callback(null);
 
     }
     else {
-      console.log(error);
+      callback(error);
     }
 
   });

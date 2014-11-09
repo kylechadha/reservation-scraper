@@ -1,9 +1,26 @@
 html, body {
-  height: 100%; }
+  height: 100%;
+  font-family: 'Gotham A', 'Gotham B', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 300; }
+
+a {
+  color: #AC9456; }
 
 .flex {
   display: flex;
   justify-content: center; }
+
+.svg-logo {
+  height: 1em; }
+
+.btn {
+  font-weight: 300; }
+
+.btn-primary {
+  background-color: #AC9456;
+  border: none; }
+  .btn-primary:hover {
+    background-color: #bdaa78; }
 
 .index {
   height: 100%; }
