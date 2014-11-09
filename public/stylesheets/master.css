@@ -27,6 +27,11 @@ a {
   .btn-primary:hover, .btn-primary:active, .btn-primary:focus {
     background-color: #bdaa78; }
 
+.bootstrap-datetimepicker-widget td.active {
+  background-color: #AC9456; }
+  .bootstrap-datetimepicker-widget td.active:hover, .bootstrap-datetimepicker-widget td.active:active, .bootstrap-datetimepicker-widget td.active:focus {
+    background-color: #bdaa78; }
+
 .spinner {
   display: none;
   width: 20px;
@@ -80,4 +85,9 @@ a {
     -webkit-transform: scale(1); } }
 
 .index .btn-scrape {
-  min-width: 94px; }
+  min-width: 94px;
+  margin-top: 15px; }
+.index .input-people {
+  max-width: 150px; }
+.index #datetimepicker1 {
+  max-width: 300px; }

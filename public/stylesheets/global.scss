@@ -46,6 +46,14 @@ a {
     background-color: lighten(#AC9456, 10%);
   }
 }
+.bootstrap-datetimepicker-widget td.active {
+  background-color: #AC9456;
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: lighten(#AC9456, 10%);
+  }
+}
 
 
 // Animation Styles
