@@ -16,110 +16,113 @@ module.exports = function(app) {
   // Scraper Route
   app.post('/', function(req, res, next) {
 
-    var json = {},
-        csv = "name,url,neighborhood,cuisine,review_count,time_window\r\n",
-        searchUrl = 'http://www.opentable.com/s/?datetime=2014-11-14%2019:30&covers=4&metroid=4&regionids=5&showmap=false&popularityalgorithm=NameSearches&tests=EnableMapview,ShowPopularitySortOption,srs,customfilters&sort=Popularity&excludefields=Description&from=0',
-        unavailableUrl = searchUrl + '&onlyunavailable=true';
+    var jsonData = {},
+        csvData = "name,url,neighborhood,cuisine,review_count,time_window\r\n",
+        availableUrl = 'http://www.opentable.com/s/?datetime=2014-11-14%2019:30&covers=4&metroid=4&regionids=5&showmap=false&popularityalgorithm=NameSearches&tests=EnableMapview,ShowPopularitySortOption,srs,customfilters&sort=Popularity&excludefields=Description&from=0',
+        unavailableUrl = availableUrl + '&onlyunavailable=true';
+
+    var scraper = function(queryUrl, json, csv, callback) {
+
+      request(queryUrl, function(error, response, html) {
+
+        if (!error) {
+          console.log('URL Reached. Scraper running.');
+          var $ = cheerio.load(html);
+
+          $('#search_results_table tbody tr').each(function() {
+
+            var restaurant = $(this),
+                name,
+                url,
+                content,
+                neighborhood,
+                cuisine,
+                reviewCount,
+                slots,
+                slotsArray,
+                peakStart,
+                peakEnd,
+                startTime,
+                endTime,
+                timeWindow;
+
+            var parseTime = function(s) {
+               var c = s.split(':');
+               return parseInt(c[0]) * 60 + parseInt(c[1]);
+            }
+
+            name = restaurant.find('.rest-content a').text();
+            url = 'http://www.opentable.com' + restaurant.find('.rest-content a').attr('href');
+
+            content = restaurant.find('.rest-content div').text().split('|');
+            neighborhood = content[0].trim();
+            cuisine = content[1].trim();
+
+            reviewCount = restaurant.find('.reviews').text().trim();
+
+            slotsArray = [];
+            slots = restaurant.find('.timeslots li');
+            slots.each(function() {
+              var slot = $(this);
+              if (slot.find('a').length > 0) {
+                slotsArray.push(slot.find('a').attr('href').split('&sd=')[1].split(' ')[1].substring(0,5));
+              } else {
+                slotsArray.push('unavailable');
+              }
+            })
+
+            peakStart = '16:59';
+            peakEnd = '22:01';
+            timeWindow = 0;
+            startTime = peakStart;
+            slotsArray.forEach(function(slot, index) {
+
+              if (index !== 4) {
+                if (slot !== 'unavailable') {
+                  if (slotsArray[index - 1] == 'unavailable') {
+                    timeWindow = timeWindow + (parseTime(slot) - parseTime(startTime));
+                  }
+                  startTime = slot;
+                }
+              } else if (index == 4) {
+                if (slot == 'unavailable') {
+                  timeWindow = timeWindow + (parseTime(peakEnd) - parseTime(startTime));
+                }
+              }
+
+            })
+
+            hours = Math.floor(timeWindow / 60);
+            minutes = timeWindow %= 60;
+            timeWindow = hours +':'+ ('0'+minutes).slice(-2);
+
+            csv = csv + '"' + name + '","' + url + '","' + neighborhood + '","' + cuisine + '","' + reviewCount + '",' + timeWindow + '\r\n';
+
+            json[name] = {};
+            json[name]['name'] = name;
+            json[name]['url'] = url;
+            json[name]['neighborhood'] = neighborhood;
+            json[name]['cuisine'] = cuisine;
+            json[name]['reviewCount'] = reviewCount;
+            json[name]['slots'] = slotsArray;
+            json[name]['timeWindow'] = timeWindow;
+
+          });
+
+          callback(null, 'one');
+        }
+        else {
+          console.log(error);
+        }
+
+      });
+    }
 
     async.series([
 
       function(callback) {
 
-        request(searchUrl, function(error, response, html) {
-
-          if (!error) {
-
-            console.log('URL Reached. Scraper running.');
-            var $ = cheerio.load(html);
-
-            $('#search_results_table tbody tr').each(function() {
-
-              var restaurant = $(this),
-                  name,
-                  url,
-                  content,
-                  neighborhood,
-                  cuisine,
-                  reviewCount,
-                  slots,
-                  slotsArray,
-                  peakStart,
-                  peakEnd,
-                  startTime,
-                  endTime,
-                  timeWindow;
-
-              var parseTime = function(s) {
-                 var c = s.split(':');
-                 return parseInt(c[0]) * 60 + parseInt(c[1]);
-              }
-
-              name = restaurant.find('.rest-content a').text();
-              url = 'http://www.opentable.com' + restaurant.find('.rest-content a').attr('href');
-
-              content = restaurant.find('.rest-content div').text().split('|');
-              neighborhood = content[0].trim();
-              cuisine = content[1].trim();
-
-              reviewCount = restaurant.find('.reviews').text().trim();
-
-              slotsArray = [];
-              slots = restaurant.find('.timeslots li');
-              slots.each(function() {
-                var slot = $(this);
-                if (slot.find('a').length > 0) {
-                  slotsArray.push(slot.find('a').attr('href').split('&sd=')[1].split(' ')[1].substring(0,5));
-                } else {
-                  slotsArray.push('unavailable');
-                }
-              })
-
-              peakStart = '16:59';
-              peakEnd = '22:01';
-              timeWindow = 0;
-              startTime = peakStart;
-              slotsArray.forEach(function(slot, index) {
-
-                if (index !== 4) {
-                  if (slot !== 'unavailable') {
-                    if (slotsArray[index - 1] == 'unavailable') {
-                      timeWindow = timeWindow + (parseTime(slot) - parseTime(startTime));
-                    }
-                    startTime = slot;
-                  }
-                } else if (index == 4) {
-                  if (slot == 'unavailable') {
-                    timeWindow = timeWindow + (parseTime(peakEnd) - parseTime(startTime));
-                  }
-                }
-
-              })
-
-              hours = Math.floor(timeWindow / 60);
-              minutes = timeWindow %= 60;
-              timeWindow = hours +':'+ ('0'+minutes).slice(-2);
-
-              csv = csv + '"' + name + '","' + url + '","' + neighborhood + '","' + cuisine + '","' + reviewCount + '",' + timeWindow + '\r\n';
-
-              json[name] = {};
-              json[name]['name'] = name;
-              json[name]['url'] = url;
-              json[name]['neighborhood'] = neighborhood;
-              json[name]['cuisine'] = cuisine;
-              json[name]['reviewCount'] = reviewCount;
-              json[name]['slots'] = slotsArray;
-              json[name]['timeWindow'] = timeWindow;
-
-            });
-
-            callback(null, 'one');
-
-          }
-          else {
-            console.log(error);
-          }
-
-        });
+        scraper(availableUrl, jsonData, csvData, callback);
 
       },
 
@@ -139,19 +142,19 @@ module.exports = function(app) {
 
     ], function() {
       
-      fs.writeFile('restaurants.json', JSON.stringify(json, null, 4), function(error) {
+      fs.writeFile('restaurants.json', JSON.stringify(jsonData, null, 4), function(error) {
         if (!error) {
           console.log('JSON file successfully written.')
         }
       });
 
-      fs.writeFile('restaurants.csv', csv, function(error) {
+      fs.writeFile('restaurants.csv', csvData, function(error) {
         if (!error) {
           console.log('CSV file successfully written.')
         }
       })
 
-      res.send('Scraping Complete.');
+      res.render('restaurants', {restaurants: json});
 
     });
 
