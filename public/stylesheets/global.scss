@@ -24,13 +24,18 @@ a {
 }
 .svg-logo {
   height: 1em;
+  fill: #fff;
 }
 
 
 // Bootstrap Global Overrides
 // -----------------------------------
+.container {
+  max-width: 1054px;
+}
 .btn {
   font-weight: 300;
+  letter-spacing: 2px;
 }
 .btn-primary {
   background-color: #AC9456;

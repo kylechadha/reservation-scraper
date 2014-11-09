@@ -11,10 +11,15 @@ a {
   justify-content: center; }
 
 .svg-logo {
-  height: 1em; }
+  height: 1em;
+  fill: #fff; }
+
+.container {
+  max-width: 1054px; }
 
 .btn {
-  font-weight: 300; }
+  font-weight: 300;
+  letter-spacing: 2px; }
 
 .btn-primary {
   background-color: #AC9456;
@@ -22,5 +27,3 @@ a {
   .btn-primary:hover {
     background-color: #bdaa78; }
 
-.index {
-  height: 100%; }
