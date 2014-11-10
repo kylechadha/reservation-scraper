@@ -1,12 +1,9 @@
 var fs      = require('fs');
 var path    = require('path');
 var mime    = require('mime');
-var async      = require('async');
-var moment     = require('moment')
-var request    = require('request');
-var cheerio    = require('cheerio');
-var scraper    = require('./services/scraper')
-
+var async   = require('async');
+var moment  = require('moment')
+var scraper = require('./services/scraper')
 
 //
 // Routes
@@ -19,6 +16,7 @@ module.exports = function(app) {
   app.get('/', function(req, res) {
     res.render('layout');
   });
+
 
   // Scraper Route
   // ----------------------------------------------
@@ -36,7 +34,7 @@ module.exports = function(app) {
         unavailableUrl = availableUrl + '&onlyunavailable=true';
 
     // Use async to scrape the available and unavailable restaurant locations.
-    // We're running these in series right now so the unavailable locations follow the available ones, but this could instead be run in parallel.
+    // Note: We're running these in series right now so the unavailable locations follow the available ones, but this could be run in parallel as well.
     async.series([
 
       // Send all the information to the scraper service we've defined in scraper.js
@@ -50,7 +48,7 @@ module.exports = function(app) {
 
     ], function() {
       
-      // Write the json and csv files.
+      // Once scraping is complete, write the json and csv files.
       fs.writeFile('restaurants.json', JSON.stringify(jsonData, null, 4), function(error) {
         if (!error) {
           console.log('JSON file successfully written.')
@@ -68,8 +66,8 @@ module.exports = function(app) {
 
     });
 
-
   });
+
 
   // Download Route
   // ----------------------------------------------
@@ -81,10 +79,11 @@ module.exports = function(app) {
     var filename = path.basename(file);
     var mimetype = mime.lookup(file);
 
+    // Set headers.
     res.setHeader('Content-disposition', 'attachment; filename=' + filename);
     res.setHeader('Content-type', mimetype);
 
-    // Set the download to begin.
+    // Serve the file to be downloaded.
     var filestream = fs.createReadStream(file);
     filestream.pipe(res);
 

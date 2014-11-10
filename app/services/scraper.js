@@ -1,24 +1,23 @@
 var request    = require('request');
 var cheerio    = require('cheerio');
 
-
 //
 // Scraper Service
 // -----------------------------------
 
 module.exports = function(queryUrl, json, csv, callback) {
 
-  // Load the OpenTable url to be scraped.
+  // Load the OpenTable URL to be scraped.
   request(queryUrl, function(error, response, html) {
 
     if (!error) {
 
-      console.log('URL Reached. Scraper running.');
+      console.log('Response received. Scraper running.');
 
       // Use Cheerio to load the page.
       var $ = cheerio.load(html);
 
-      // Iterate through each restaurant on the page.
+      // Iterate through the search results.
       $('#search_results_table tbody tr').each(function() {
 
         var restaurant = $(this),
@@ -33,7 +32,6 @@ module.exports = function(queryUrl, json, csv, callback) {
             peakStart,
             peakEnd,
             startTime,
-            endTime,
             timeWindow;
 
         var parseTime = function(s) {
@@ -53,16 +51,18 @@ module.exports = function(queryUrl, json, csv, callback) {
         // Scrape the Review Count.
         reviewCount = restaurant.find('.reviews').text().trim();
 
-        // Pull the list of available time slots.
+        // Scrape the list of available time slots.
         slotsArray = [];
         slots = restaurant.find('.timeslots li');
-        // Note: Now that we've added time as a user preference, we'll need to update peakStart and peakEnd dynamically
+
+        // Note: Now that we've added time as a user preference, we may want to update peakStart and peakEnd dynamically.
+        // Currently, we're assuming that peak times are 4:59 to 10:01 and that time window calculations are only valid in this range.
         peakStart = '16:59';
         peakEnd = '22:01';
         timeWindow = 0;
 
         if (slots.length > 0) {
-          // If slots are available, push them into the slotsArray.
+          // Parse time slots and push them into an array, marking unavailable slots.
           slots.each(function() {
             var slot = $(this);
             if (slot.find('a').length > 0) {
@@ -76,28 +76,31 @@ module.exports = function(queryUrl, json, csv, callback) {
           startTime = peakStart;
           slotsArray.forEach(function(slot, index) {
 
+            // 1. For each slot in positions 0 to 3 check availability
+            // 2. For each available slot, check the whether the previous slot was unavailable
+            // 3. If the previous slot was unavailable, recognize an availability gap exists and add the time from the startTime up until the current slot
+            // 4. Update the startTime so the next gap recorded does not overlap with the previous gaps (if any)
             if (index !== 4) {
               if (slot !== 'unavailable') {
                 if (slotsArray[index - 1] == 'unavailable') {
-                  // Add gaps to timeWindow as they're found.
                   timeWindow = timeWindow + (parseTime(slot) - parseTime(startTime));
                 }
                 startTime = slot;
               }
+            // 5. If the last slot is unavailable, calculate the gap from the last updated startTime to peakEnd.
             } else if (index == 4) {
               if (slot == 'unavailable') {
-                // If the last slot is unavailable, calculate the gap from the last available time to peakEnd.
                 timeWindow = timeWindow + (parseTime(peakEnd) - parseTime(startTime));
               }
             }
 
           })
         } else {
-          // If no slots are available, simply calculate the time window based on the difference between peakStart and peakEnd.
+          // If no slots are available, calculate the time window based on the difference between peakStart and peakEnd.
           timeWindow = parseTime(peakEnd) - parseTime(peakStart);
         }
 
-        // Convert the timeWindow to HH:mm.
+        // Convert the timeWindow to HH:mm format.
         hours = Math.floor(timeWindow / 60);
         minutes = timeWindow %= 60;
         timeWindow = hours + ':' + ('0' + minutes).slice(-2);
