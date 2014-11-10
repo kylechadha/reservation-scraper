@@ -27,13 +27,13 @@ a {
   .btn-primary:hover, .btn-primary:active, .btn-primary:focus {
     background-color: #bdaa78; }
 
+.form-group {
+  margin-right: 10px; }
+
 .bootstrap-datetimepicker-widget td.active {
   background-color: #AC9456; }
   .bootstrap-datetimepicker-widget td.active:hover, .bootstrap-datetimepicker-widget td.active:active, .bootstrap-datetimepicker-widget td.active:focus {
     background-color: #bdaa78; }
-
-.form-group {
-  margin-right: 10px; }
 
 .spinner {
   display: none;

@@ -7,7 +7,7 @@ $(document).ready(function() {
   
   var now = moment();
 
-  // Config the date and time picker.
+  // Configure the date and time picker -- increments of 30 and present forward only.
   $('#datetimepicker1').datetimepicker({
       defaultDate: "11/14/2014 7:30 PM",
       minDate: now,

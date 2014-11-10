@@ -166,7 +166,7 @@
     },
     "Fish & Farm": {
         "name": "Fish & Farm",
-        "url": "http://www.opentable.com/fish-and-farm?p=4&sd=2014-11-14 19:30&rid=17245&pt=1000,100,1000,1000,1000&d=11/14/2014 19:15:00,,11/14/2014 19:45:00,11/14/2014 19:00:00,11/14/2014 20:15:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "url": "http://www.opentable.com/fish-and-farm?p=4&sd=2014-11-14 19:30&rid=17245&pt=1000,100,1000,1000,1000&d=11/14/2014 19:15:00,,11/14/2014 20:15:00,11/14/2014 19:00:00,11/14/2014 20:30:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
         "neighborhood": "Downtown / Union Square",
         "cuisine": "American",
         "reviewCount": "74 reviews",
@@ -174,10 +174,10 @@
             "19:00",
             "19:15",
             "unavailable",
-            "19:45",
-            "20:15"
+            "20:15",
+            "20:30"
         ],
-        "timeWindow": "0:30"
+        "timeWindow": "1:00"
     },
     "Pacific Catch - Sunset District": {
         "name": "Pacific Catch - Sunset District",
@@ -226,18 +226,18 @@
     },
     "Rocco's Cafe": {
         "name": "Rocco's Cafe",
-        "url": "http://www.opentable.com/roccos-cafe?p=4&sd=2014-11-14 19:30&rid=22888&pt=100,100,100,100,100&d=11/14/2014 19:00:00,11/14/2014 19:30:00,11/14/2014 20:00:00,11/14/2014 18:30:00,11/14/2014 20:30:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "url": "http://www.opentable.com/roccos-cafe?p=4&sd=2014-11-14 19:30&rid=22888&pt=100,100,100,100,100&d=11/14/2014 19:00:00,,11/14/2014 20:00:00,11/14/2014 18:30:00,11/14/2014 20:30:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
         "neighborhood": "SOMA",
         "cuisine": "Italian",
         "reviewCount": "50 reviews",
         "slots": [
             "18:30",
             "19:00",
-            "19:30",
+            "unavailable",
             "20:00",
             "20:30"
         ],
-        "timeWindow": "0:00"
+        "timeWindow": "1:00"
     },
     "Amber India": {
         "name": "Amber India",
@@ -346,18 +346,18 @@
     },
     "RN74": {
         "name": "RN74",
-        "url": "http://www.opentable.com/rn74?p=4&sd=2014-11-14 19:30&rid=31072&pt=100,100,100,100,100&d=11/14/2014 19:00:00,11/14/2014 19:30:00,11/14/2014 20:00:00,11/14/2014 18:15:00,11/14/2014 20:15:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "url": "http://www.opentable.com/rn74?p=4&sd=2014-11-14 19:30&rid=31072&pt=100,100,100,100,100&d=11/14/2014 19:00:00,,11/14/2014 20:00:00,11/14/2014 18:15:00,11/14/2014 20:15:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
         "neighborhood": "SOMA",
         "cuisine": "Contemporary French",
         "reviewCount": "178 reviews",
         "slots": [
             "18:15",
             "19:00",
-            "19:30",
+            "unavailable",
             "20:00",
             "20:15"
         ],
-        "timeWindow": "0:00"
+        "timeWindow": "1:00"
     },
     "Bar Crudo - Divisadero St": {
         "name": "Bar Crudo - Divisadero St",
@@ -451,7 +451,7 @@
     },
     "Prospect": {
         "name": "Prospect",
-        "url": "http://www.opentable.com/prospect?p=4&sd=2014-11-14 19:30&rid=45907&pt=100,100,100,100,100&d=11/14/2014 18:45:00,,11/14/2014 20:00:00,11/14/2014 18:30:00,11/14/2014 20:15:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "url": "http://www.opentable.com/prospect?p=4&sd=2014-11-14 19:30&rid=45907&pt=100,100,100,100,100&d=11/14/2014 18:45:00,,11/14/2014 20:15:00,11/14/2014 18:30:00,11/14/2014 20:30:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
         "neighborhood": "Financial District / Embarcadero",
         "cuisine": "Contemporary American",
         "reviewCount": "188 reviews",
@@ -459,10 +459,10 @@
             "18:30",
             "18:45",
             "unavailable",
-            "20:00",
-            "20:15"
+            "20:15",
+            "20:30"
         ],
-        "timeWindow": "1:15"
+        "timeWindow": "1:30"
     },
     "Ruchi": {
         "name": "Ruchi",
@@ -691,7 +691,7 @@
     },
     "Chambers Eat + Drink": {
         "name": "Chambers Eat + Drink",
-        "url": "http://www.opentable.com/chambers-eat-and-drink?p=4&sd=2014-11-14 19:30&rid=60532&pt=100,100,100,100,100&d=11/14/2014 19:15:00,11/14/2014 19:30:00,11/14/2014 19:45:00,11/14/2014 19:00:00,11/14/2014 20:15:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "url": "http://www.opentable.com/chambers-eat-and-drink?p=4&sd=2014-11-14 19:30&rid=60532&pt=100,100,100,100,100&d=11/14/2014 19:15:00,11/14/2014 19:30:00,11/14/2014 19:45:00,11/14/2014 19:00:00,11/14/2014 20:30:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
         "neighborhood": "Downtown / Union Square",
         "cuisine": "Californian",
         "reviewCount": "38 reviews",
@@ -700,7 +700,7 @@
             "19:15",
             "19:30",
             "19:45",
-            "20:15"
+            "20:30"
         ],
         "timeWindow": "0:00"
     },
@@ -856,7 +856,7 @@
     },
     "Bouche": {
         "name": "Bouche",
-        "url": "http://www.opentable.com/bouche-san-francisco?p=4&sd=2014-11-14 19:30&rid=83236&pt=100,100,100,100,100&d=11/14/2014 17:30:00,,11/14/2014 20:15:00,,11/14/2014 20:30:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "url": "http://www.opentable.com/bouche-san-francisco?p=4&sd=2014-11-14 19:30&rid=83236&pt=100,100,100,100,100&d=11/14/2014 17:30:00,,11/14/2014 21:00:00,,11/14/2014 21:15:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
         "neighborhood": "Downtown / Union Square",
         "cuisine": "French",
         "reviewCount": "115 reviews",
@@ -864,10 +864,10 @@
             "unavailable",
             "17:30",
             "unavailable",
-            "20:15",
-            "20:30"
+            "21:00",
+            "21:15"
         ],
-        "timeWindow": "3:16"
+        "timeWindow": "4:01"
     },
     "Local's Corner": {
         "name": "Local's Corner",
@@ -989,21 +989,6 @@
         ],
         "timeWindow": "0:00"
     },
-    "Ideale": {
-        "name": "Ideale",
-        "url": "http://www.opentable.com/ideale?p=4&sd=2014-11-14 19:30&rid=282&pt=100,100,100,100,100&d=11/14/2014 19:15:00,11/14/2014 19:30:00,11/14/2014 19:45:00,11/14/2014 19:00:00,11/14/2014 20:15:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
-        "neighborhood": "North Beach",
-        "cuisine": "Italian",
-        "reviewCount": "109 reviews",
-        "slots": [
-            "19:00",
-            "19:15",
-            "19:30",
-            "19:45",
-            "20:15"
-        ],
-        "timeWindow": "0:00"
-    },
     "Pier Market Seafood Restaurant - Pier 39 SF": {
         "name": "Pier Market Seafood Restaurant - Pier 39 SF",
         "url": "http://www.opentable.com/pier-market-seafood-restaurant-pier-39-sf?p=4&sd=2014-11-14 19:30&rid=57232&pt=100,100,100,100,100&d=11/14/2014 19:15:00,11/14/2014 19:30:00,11/14/2014 19:45:00,11/14/2014 19:00:00,11/14/2014 20:00:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
@@ -1096,18 +1081,18 @@
     },
     "Chaya Brasserie": {
         "name": "Chaya Brasserie",
-        "url": "http://www.opentable.com/chaya-brasserie?p=4&sd=2014-11-14 19:30&rid=2005&pt=100,100,100,100,100&d=11/14/2014 18:15:00,11/14/2014 19:30:00,11/14/2014 19:45:00,11/14/2014 18:00:00,11/14/2014 20:00:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "url": "http://www.opentable.com/chaya-brasserie?p=4&sd=2014-11-14 19:30&rid=2005&pt=100,100,100,100,100&d=11/14/2014 18:15:00,,11/14/2014 19:45:00,11/14/2014 18:00:00,11/14/2014 20:00:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
         "neighborhood": "Financial District / Embarcadero",
         "cuisine": "Eurasian",
         "reviewCount": "176 reviews",
         "slots": [
             "18:00",
             "18:15",
-            "19:30",
+            "unavailable",
             "19:45",
             "20:00"
         ],
-        "timeWindow": "0:00"
+        "timeWindow": "1:30"
     },
     "Aveline": {
         "name": "Aveline",
@@ -1186,18 +1171,18 @@
     },
     "Chez Papa Bistrot": {
         "name": "Chez Papa Bistrot",
-        "url": "http://www.opentable.com/chez-papa-bistrot?p=4&sd=2014-11-14 19:30&rid=3280&pt=100,100,100,100,100&d=11/14/2014 18:30:00,11/14/2014 19:30:00,11/14/2014 20:00:00,11/14/2014 18:00:00,11/14/2014 20:30:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "url": "http://www.opentable.com/chez-papa-bistrot?p=4&sd=2014-11-14 19:30&rid=3280&pt=100,100,100,100,100&d=11/14/2014 18:30:00,,11/14/2014 20:00:00,11/14/2014 18:00:00,11/14/2014 20:30:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
         "neighborhood": "Potrero Hill / Dogpatch",
         "cuisine": "French",
         "reviewCount": "69 reviews",
         "slots": [
             "18:00",
             "18:30",
-            "19:30",
+            "unavailable",
             "20:00",
             "20:30"
         ],
-        "timeWindow": "0:00"
+        "timeWindow": "1:30"
     },
     "Florio": {
         "name": "Florio",
@@ -1246,7 +1231,7 @@
     },
     "Lolinda": {
         "name": "Lolinda",
-        "url": "http://www.opentable.com/lolinda?p=4&sd=2014-11-14 19:30&rid=135919&pt=100,100,100,100,100&d=11/14/2014 18:00:00,,11/14/2014 20:45:00,11/14/2014 17:45:00,11/14/2014 21:00:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "url": "http://www.opentable.com/lolinda?p=4&sd=2014-11-14 19:30&rid=135919&pt=100,100,100,100,100&d=11/14/2014 18:00:00,,11/14/2014 21:00:00,11/14/2014 17:45:00,11/14/2014 21:15:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
         "neighborhood": "Mission",
         "cuisine": "Steakhouse",
         "reviewCount": "233 reviews",
@@ -1254,19 +1239,19 @@
             "17:45",
             "18:00",
             "unavailable",
-            "20:45",
-            "21:00"
+            "21:00",
+            "21:15"
         ],
-        "timeWindow": "2:45"
+        "timeWindow": "3:00"
     },
     "Bacco Ristorante": {
         "name": "Bacco Ristorante",
-        "url": "http://www.opentable.com/bacco-ristorante?p=4&sd=2014-11-14 19:30&rid=4243&pt=100,100,100,100,100&d=11/14/2014 19:15:00,11/14/2014 19:30:00,11/14/2014 19:45:00,11/14/2014 19:00:00,11/14/2014 20:00:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "url": "http://www.opentable.com/bacco-ristorante?p=4&sd=2014-11-14 19:30&rid=4243&pt=100,100,100,100,100&d=11/14/2014 19:15:00,11/14/2014 19:30:00,11/14/2014 19:45:00,11/14/2014 18:45:00,11/14/2014 20:00:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
         "neighborhood": "Noe Valley",
         "cuisine": "Italian",
         "reviewCount": "54 reviews",
         "slots": [
-            "19:00",
+            "18:45",
             "19:15",
             "19:30",
             "19:45",
@@ -1276,13 +1261,13 @@
     },
     "Sears Fine Food": {
         "name": "Sears Fine Food",
-        "url": "http://www.opentable.com/sears-fine-food?p=4&sd=2014-11-14 19:30&rid=4572&pt=100,100,100,100,100&d=11/14/2014 19:15:00,11/14/2014 19:30:00,11/14/2014 19:45:00,11/14/2014 19:00:00,11/14/2014 20:00:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "url": "http://www.opentable.com/sears-fine-food?p=4&sd=2014-11-14 19:30&rid=4572&pt=100,100,100,100,100&d=11/14/2014 19:00:00,11/14/2014 19:30:00,11/14/2014 19:45:00,11/14/2014 18:45:00,11/14/2014 20:00:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
         "neighborhood": "Downtown / Union Square",
         "cuisine": "American",
         "reviewCount": "28 reviews",
         "slots": [
+            "18:45",
             "19:00",
-            "19:15",
             "19:30",
             "19:45",
             "20:00"
@@ -1336,18 +1321,18 @@
     },
     "Chapeau": {
         "name": "Chapeau",
-        "url": "http://www.opentable.com/chapeau?p=4&sd=2014-11-14 19:30&rid=5881&pt=100,100,100,100,100&d=11/14/2014 18:15:00,,11/14/2014 20:30:00,11/14/2014 18:00:00,11/14/2014 20:45:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "url": "http://www.opentable.com/chapeau?p=4&sd=2014-11-14 19:30&rid=5881&pt=100,100,100,100,100&d=11/14/2014 17:30:00,,11/14/2014 21:00:00,11/14/2014 17:15:00,11/14/2014 21:15:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
         "neighborhood": "Richmond District",
         "cuisine": "French",
         "reviewCount": "191 reviews",
         "slots": [
-            "18:00",
-            "18:15",
+            "17:15",
+            "17:30",
             "unavailable",
-            "20:30",
-            "20:45"
+            "21:00",
+            "21:15"
         ],
-        "timeWindow": "2:15"
+        "timeWindow": "3:30"
     },
     "Terzo": {
         "name": "Terzo",
@@ -1651,18 +1636,18 @@
     },
     "Verbena": {
         "name": "Verbena",
-        "url": "http://www.opentable.com/verbena?p=4&sd=2014-11-14 19:30&rid=113125&pt=100,100,100,100,100&d=11/14/2014 18:00:00,,11/14/2014 21:00:00,11/14/2014 17:45:00,11/14/2014 21:15:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "url": "http://www.opentable.com/verbena?p=4&sd=2014-11-14 19:30&rid=113125&pt=100,100,100,100,100&d=11/14/2014 17:45:00,,11/14/2014 21:00:00,11/14/2014 17:30:00,11/14/2014 21:15:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
         "neighborhood": "Russian Hill",
         "cuisine": "Californian",
         "reviewCount": "189 reviews",
         "slots": [
+            "17:30",
             "17:45",
-            "18:00",
             "unavailable",
             "21:00",
             "21:15"
         ],
-        "timeWindow": "3:00"
+        "timeWindow": "3:15"
     },
     "1601 Bar & Kitchen": {
         "name": "1601 Bar & Kitchen",
@@ -1771,7 +1756,7 @@
     },
     "Mamacita": {
         "name": "Mamacita",
-        "url": "http://www.opentable.com/mamacita?p=4&sd=2014-11-14 19:30&rid=6001&pt=100,100,100,100,100&d=11/14/2014 18:30:00,,11/14/2014 21:00:00,11/14/2014 17:30:00,11/14/2014 21:30:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "url": "http://www.opentable.com/mamacita?p=4&sd=2014-11-14 19:30&rid=6001&pt=100,100,100,100,100&d=11/14/2014 18:30:00,,11/14/2014 22:00:00,11/14/2014 17:30:00,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
         "neighborhood": "Marina / Cow Hollow / Presidio",
         "cuisine": "Mexican",
         "reviewCount": "106 reviews",
@@ -1779,10 +1764,10 @@
             "17:30",
             "18:30",
             "unavailable",
-            "21:00",
-            "21:30"
+            "22:00",
+            "unavailable"
         ],
-        "timeWindow": "2:30"
+        "timeWindow": "3:31"
     },
     "Georges": {
         "name": "Georges",
@@ -1831,7 +1816,7 @@
     },
     "Greens Restaurant": {
         "name": "Greens Restaurant",
-        "url": "http://www.opentable.com/greens-restaurant-san-francisco?p=4&sd=2014-11-14 19:30&rid=3135&pt=100,100,100,100,100&d=11/14/2014 18:30:00,,11/14/2014 20:15:00,11/14/2014 18:00:00,11/14/2014 20:30:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "url": "http://www.opentable.com/greens-restaurant-san-francisco?p=4&sd=2014-11-14 19:30&rid=3135&pt=100,100,100,100,100&d=11/14/2014 18:30:00,,11/14/2014 20:30:00,11/14/2014 18:00:00,11/14/2014 20:45:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
         "neighborhood": "Marina / Cow Hollow / Presidio",
         "cuisine": "Vegetarian / Vegan",
         "reviewCount": "574 reviews",
@@ -1839,10 +1824,10 @@
             "18:00",
             "18:30",
             "unavailable",
-            "20:15",
-            "20:30"
+            "20:30",
+            "20:45"
         ],
-        "timeWindow": "1:45"
+        "timeWindow": "2:00"
     },
     "Cafe de la Presse": {
         "name": "Cafe de la Presse",
@@ -1906,7 +1891,7 @@
     },
     "Game": {
         "name": "Game",
-        "url": "http://www.opentable.com/game-popup-at-all-spice?p=4&sd=2014-11-14 19:30&rid=139123&pt=100,100,100,100,100&d=11/14/2014 18:45:00,11/14/2014 19:30:00,11/14/2014 19:45:00,11/14/2014 18:30:00,11/14/2014 20:45:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "url": "http://www.opentable.com/game-popup-at-all-spice?p=4&sd=2014-11-14 19:30&rid=139123&pt=100,100,100,100,100&d=11/14/2014 18:45:00,11/14/2014 19:30:00,11/14/2014 19:45:00,11/14/2014 18:30:00,11/14/2014 20:30:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
         "neighborhood": "Downtown / Union Square",
         "cuisine": "Contemporary American",
         "reviewCount": "1 review",
@@ -1915,7 +1900,7 @@
             "18:45",
             "19:30",
             "19:45",
-            "20:45"
+            "20:30"
         ],
         "timeWindow": "0:00"
     },
@@ -1966,7 +1951,7 @@
     },
     "Big 4 Restaurant": {
         "name": "Big 4 Restaurant",
-        "url": "http://www.opentable.com/big-4-restaurant?p=4&sd=2014-11-14 19:30&rid=22585&pt=100,100,100,100,100&d=11/14/2014 19:15:00,,11/14/2014 19:45:00,11/14/2014 18:45:00,11/14/2014 20:15:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "url": "http://www.opentable.com/big-4-restaurant?p=4&sd=2014-11-14 19:30&rid=22585&pt=100,100,100,100,100&d=11/14/2014 19:15:00,,11/14/2014 20:15:00,11/14/2014 18:45:00,11/14/2014 20:30:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
         "neighborhood": "Nob Hill",
         "cuisine": "Contemporary American",
         "reviewCount": "115 reviews",
@@ -1974,10 +1959,10 @@
             "18:45",
             "19:15",
             "unavailable",
-            "19:45",
-            "20:15"
+            "20:15",
+            "20:30"
         ],
-        "timeWindow": "0:30"
+        "timeWindow": "1:00"
     },
     "Blackwood": {
         "name": "Blackwood",
@@ -2056,22 +2041,22 @@
     },
     "Bouli Bar": {
         "name": "Bouli Bar",
-        "url": "http://www.opentable.com/bouli-bar?p=4&sd=2014-11-14 19:30&rid=149290&pt=100,100,100,100,100&d=11/14/2014 19:15:00,11/14/2014 19:30:00,11/14/2014 19:45:00,11/14/2014 19:00:00,11/14/2014 20:00:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "url": "http://www.opentable.com/bouli-bar?p=4&sd=2014-11-14 19:30&rid=149290&pt=100,100,100,100,100&d=,,11/14/2014 20:30:00,,11/14/2014 20:45:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
         "neighborhood": "Financial District / Embarcadero",
         "cuisine": "Mediterranean",
         "reviewCount": "57 reviews",
         "slots": [
-            "19:00",
-            "19:15",
-            "19:30",
-            "19:45",
-            "20:00"
+            "unavailable",
+            "unavailable",
+            "unavailable",
+            "20:30",
+            "20:45"
         ],
-        "timeWindow": "0:00"
+        "timeWindow": "3:31"
     },
     "Harris'": {
         "name": "Harris'",
-        "url": "http://www.opentable.com/harris?p=4&sd=2014-11-14 19:30&rid=10&pt=100,100,100,100,100&d=11/14/2014 17:30:00,,11/14/2014 20:30:00,,11/14/2014 20:45:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "url": "http://www.opentable.com/harris?p=4&sd=2014-11-14 19:30&rid=10&pt=100,100,100,100,100&d=11/14/2014 17:30:00,,11/14/2014 21:00:00,,11/14/2014 21:30:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
         "neighborhood": "Russian Hill",
         "cuisine": "Steak",
         "reviewCount": "233 reviews",
@@ -2079,10 +2064,10 @@
             "unavailable",
             "17:30",
             "unavailable",
-            "20:30",
-            "20:45"
+            "21:00",
+            "21:30"
         ],
-        "timeWindow": "3:31"
+        "timeWindow": "4:01"
     },
     "Alfred's Steakhouse": {
         "name": "Alfred's Steakhouse",
@@ -2131,7 +2116,7 @@
     },
     "Boulevard": {
         "name": "Boulevard",
-        "url": "http://www.opentable.com/boulevard?p=4&sd=2014-11-14 19:30&rid=130&pt=100,100,100,100,100&d=,,11/14/2014 21:15:00,,11/14/2014 21:30:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "url": "http://www.opentable.com/boulevard?p=4&sd=2014-11-14 19:30&rid=130&pt=100,100,100,100,100&d=,,11/14/2014 21:30:00,,11/14/2014 21:45:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
         "neighborhood": "Financial District / Embarcadero",
         "cuisine": "American",
         "reviewCount": "515 reviews",
@@ -2139,10 +2124,10 @@
             "unavailable",
             "unavailable",
             "unavailable",
-            "21:15",
-            "21:30"
+            "21:30",
+            "21:45"
         ],
-        "timeWindow": "4:16"
+        "timeWindow": "4:31"
     },
     "Hyde Street Seafood House & Raw Bar": {
         "name": "Hyde Street Seafood House & Raw Bar",
@@ -2429,21 +2414,6 @@
         ],
         "timeWindow": "4:31"
     },
-    "Market Street Grill": {
-        "name": "Market Street Grill",
-        "url": "http://www.opentable.com/market-street-grill-san-francisco?p=4&sd=2014-11-14 19:30&rid=12862&pt=100,100,100,100,100&d=11/14/2014 19:15:00,11/14/2014 19:30:00,11/14/2014 19:45:00,11/14/2014 19:00:00,11/14/2014 20:00:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
-        "neighborhood": "Civic Center / Hayes Valley / Van Ness",
-        "cuisine": "Californian",
-        "reviewCount": "94 reviews",
-        "slots": [
-            "19:00",
-            "19:15",
-            "19:30",
-            "19:45",
-            "20:00"
-        ],
-        "timeWindow": "0:00"
-    },
     "MaSo": {
         "name": "MaSo",
         "url": "http://www.opentable.com/maso?p=4&sd=2014-11-14 19:30&rid=13339&pt=100,100,100,100,100&d=11/14/2014 19:00:00,,11/14/2014 20:00:00,11/14/2014 18:30:00,11/14/2014 20:15:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
@@ -2461,18 +2431,18 @@
     },
     "Anchor and Hope": {
         "name": "Anchor and Hope",
-        "url": "http://www.opentable.com/anchor-and-hope?p=4&sd=2014-11-14 19:30&rid=21244&pt=100,100,100,100,100&d=11/14/2014 19:15:00,,11/14/2014 19:45:00,11/14/2014 19:00:00,11/14/2014 20:00:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "url": "http://www.opentable.com/anchor-and-hope?p=4&sd=2014-11-14 19:30&rid=21244&pt=100,100,100,100,100&d=11/14/2014 19:00:00,,11/14/2014 19:45:00,11/14/2014 18:45:00,11/14/2014 20:00:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
         "neighborhood": "SOMA",
         "cuisine": "Seafood",
         "reviewCount": "215 reviews",
         "slots": [
+            "18:45",
             "19:00",
-            "19:15",
             "unavailable",
             "19:45",
             "20:00"
         ],
-        "timeWindow": "0:30"
+        "timeWindow": "0:45"
     },
     "BIN 38": {
         "name": "BIN 38",
@@ -2488,21 +2458,6 @@
             "20:00"
         ],
         "timeWindow": "0:00"
-    },
-    "La Mar Cebicheria Peruana": {
-        "name": "La Mar Cebicheria Peruana",
-        "url": "http://www.opentable.com/la-mar-cebicheria-peruana?p=4&sd=2014-11-14 19:30&rid=25198&pt=100,100,100,100,100&d=11/14/2014 18:00:00,,11/14/2014 20:15:00,11/14/2014 17:30:00,11/14/2014 20:30:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
-        "neighborhood": "Financial District / Embarcadero",
-        "cuisine": "Peruvian",
-        "reviewCount": "327 reviews",
-        "slots": [
-            "17:30",
-            "18:00",
-            "unavailable",
-            "20:15",
-            "20:30"
-        ],
-        "timeWindow": "2:15"
     },
     "The Tipsy Pig": {
         "name": "The Tipsy Pig",
@@ -2699,21 +2654,6 @@
         ],
         "timeWindow": "0:00"
     },
-    "Sanraku Metreon": {
-        "name": "Sanraku Metreon",
-        "url": "http://www.opentable.com/sanraku-metreon?p=4&sd=2014-11-14 19:30&rid=88192&pt=100,100,100,100,100&d=11/14/2014 19:15:00,11/14/2014 19:30:00,11/14/2014 19:45:00,11/14/2014 19:00:00,11/14/2014 20:00:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
-        "neighborhood": "SOMA",
-        "cuisine": "Sushi",
-        "reviewCount": "29 reviews",
-        "slots": [
-            "19:00",
-            "19:15",
-            "19:30",
-            "19:45",
-            "20:00"
-        ],
-        "timeWindow": "0:00"
-    },
     "The Vestry": {
         "name": "The Vestry",
         "url": "http://www.opentable.com/the-vestry?p=4&sd=2014-11-14 19:30&rid=107224&pt=100,100,100,100,100&d=11/14/2014 19:15:00,11/14/2014 19:30:00,11/14/2014 19:45:00,11/14/2014 19:00:00,11/14/2014 20:00:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
@@ -2881,18 +2821,18 @@
     },
     "Heirloom Cafe": {
         "name": "Heirloom Cafe",
-        "url": "http://www.opentable.com/heirloom-cafe?p=4&sd=2014-11-14 19:30&rid=53884&pt=100,100,100,100,100&d=11/14/2014 18:15:00,,11/14/2014 20:45:00,11/14/2014 18:00:00,11/14/2014 21:00:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "url": "http://www.opentable.com/heirloom-cafe?p=4&sd=2014-11-14 19:30&rid=53884&pt=100,100,100,100,100&d=11/14/2014 18:00:00,,11/14/2014 20:45:00,11/14/2014 17:45:00,11/14/2014 21:00:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
         "neighborhood": "Mission",
         "cuisine": "Californian",
         "reviewCount": "103 reviews",
         "slots": [
+            "17:45",
             "18:00",
-            "18:15",
             "unavailable",
             "20:45",
             "21:00"
         ],
-        "timeWindow": "2:30"
+        "timeWindow": "2:45"
     },
     "Cupola Pizzeria": {
         "name": "Cupola Pizzeria",
@@ -3076,13 +3016,13 @@
     },
     "FOG CITY": {
         "name": "FOG CITY",
-        "url": "http://www.opentable.com/fog-city?p=4&sd=2014-11-14 19:30&rid=112810&pt=100,100,100,100,100&d=11/14/2014 19:15:00,11/14/2014 19:30:00,11/14/2014 19:45:00,11/14/2014 18:45:00,11/14/2014 20:00:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "url": "http://www.opentable.com/fog-city?p=4&sd=2014-11-14 19:30&rid=112810&pt=100,100,100,100,100&d=11/14/2014 18:45:00,11/14/2014 19:30:00,11/14/2014 19:45:00,11/14/2014 18:30:00,11/14/2014 20:00:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
         "neighborhood": "Financial District / Embarcadero",
         "cuisine": "American",
         "reviewCount": "254 reviews",
         "slots": [
+            "18:30",
             "18:45",
-            "19:15",
             "19:30",
             "19:45",
             "20:00"
@@ -3133,21 +3073,6 @@
             "20:00"
         ],
         "timeWindow": "0:00"
-    },
-    "Zuni Cafe": {
-        "name": "Zuni Cafe",
-        "url": "http://www.opentable.com/zuni-cafe?p=4&sd=2014-11-14 19:30&rid=4485&pt=100,100,100,100,100&d=,,11/14/2014 21:45:00,,11/14/2014 22:00:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
-        "neighborhood": "Civic Center / Hayes Valley / Van Ness",
-        "cuisine": "Modern European",
-        "reviewCount": "414 reviews",
-        "slots": [
-            "unavailable",
-            "unavailable",
-            "unavailable",
-            "21:45",
-            "22:00"
-        ],
-        "timeWindow": "4:46"
     },
     "Panta Rei": {
         "name": "Panta Rei",
@@ -3316,7 +3241,7 @@
     },
     "BIX": {
         "name": "BIX",
-        "url": "http://www.opentable.com/bix?p=4&sd=2014-11-14 19:30&rid=3638&pt=100,100,100,100,100&d=11/14/2014 18:00:00,,11/14/2014 21:00:00,11/14/2014 17:30:00,11/14/2014 21:30:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "url": "http://www.opentable.com/bix?p=4&sd=2014-11-14 19:30&rid=3638&pt=100,100,100,100,100&d=11/14/2014 18:00:00,,11/14/2014 21:30:00,11/14/2014 17:30:00,11/14/2014 22:00:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
         "neighborhood": "Financial District / Embarcadero",
         "cuisine": "American",
         "reviewCount": "198 reviews",
@@ -3324,10 +3249,10 @@
             "17:30",
             "18:00",
             "unavailable",
-            "21:00",
-            "21:30"
+            "21:30",
+            "22:00"
         ],
-        "timeWindow": "3:00"
+        "timeWindow": "3:30"
     },
     "Tropisueño": {
         "name": "Tropisueño",
@@ -3344,39 +3269,24 @@
         ],
         "timeWindow": "2:46"
     },
-    "OTD (aka Out the Door - Bush St.)": {
-        "name": "OTD (aka Out the Door - Bush St.)",
-        "url": "http://www.opentable.com/otd-aka-out-the-door-bush-st?p=4&sd=2014-11-14 19:30&rid=35182&pt=100,100,100,100,100&d=11/14/2014 17:45:00,,11/14/2014 19:45:00,11/14/2014 17:30:00,11/14/2014 21:00:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
-        "neighborhood": "Pacific Heights",
-        "cuisine": "Vietnamese",
-        "reviewCount": "104 reviews",
-        "slots": [
-            "17:30",
-            "17:45",
-            "unavailable",
-            "19:45",
-            "21:00"
-        ],
-        "timeWindow": "2:00"
-    },
     "Local Mission Eatery": {
         "name": "Local Mission Eatery",
-        "url": "http://www.opentable.com/local-mission-eatery?p=4&sd=2014-11-14 19:30&rid=46099&pt=100,100,100,100,100&d=11/14/2014 19:15:00,11/14/2014 19:30:00,11/14/2014 19:45:00,11/14/2014 19:00:00,11/14/2014 20:00:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "url": "http://www.opentable.com/local-mission-eatery?p=4&sd=2014-11-14 19:30&rid=46099&pt=100,100,100,100,100&d=11/14/2014 19:15:00,,11/14/2014 19:45:00,11/14/2014 19:00:00,11/14/2014 20:00:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
         "neighborhood": "Mission",
         "cuisine": "Californian",
         "reviewCount": "54 reviews",
         "slots": [
             "19:00",
             "19:15",
-            "19:30",
+            "unavailable",
             "19:45",
             "20:00"
         ],
-        "timeWindow": "0:00"
+        "timeWindow": "0:30"
     },
     "Zero Zero": {
         "name": "Zero Zero",
-        "url": "http://www.opentable.com/zero-zero?p=4&sd=2014-11-14 19:30&rid=48964&pt=100,100,100,100,100&d=11/14/2014 17:30:00,,11/14/2014 20:30:00,,11/14/2014 21:15:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "url": "http://www.opentable.com/zero-zero?p=4&sd=2014-11-14 19:30&rid=48964&pt=100,100,100,100,100&d=11/14/2014 17:30:00,,11/14/2014 21:15:00,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
         "neighborhood": "SOMA",
         "cuisine": "Italian",
         "reviewCount": "139 reviews",
@@ -3384,10 +3294,10 @@
             "unavailable",
             "17:30",
             "unavailable",
-            "20:30",
-            "21:15"
+            "21:15",
+            "unavailable"
         ],
-        "timeWindow": "3:31"
+        "timeWindow": "5:02"
     },
     "Hana Zen Sushi Bar - Pier 39": {
         "name": "Hana Zen Sushi Bar - Pier 39",
@@ -3421,13 +3331,13 @@
     },
     "Mason Pacific": {
         "name": "Mason Pacific",
-        "url": "http://www.opentable.com/mason-pacific?p=4&sd=2014-11-14 19:30&rid=106990&pt=100,100,100,100,100&d=11/14/2014 17:45:00,,11/14/2014 21:30:00,,11/14/2014 21:45:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "url": "http://www.opentable.com/mason-pacific?p=4&sd=2014-11-14 19:30&rid=106990&pt=100,100,100,100,100&d=,,11/14/2014 21:30:00,,11/14/2014 21:45:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
         "neighborhood": "Nob Hill",
         "cuisine": "Californian",
         "reviewCount": "88 reviews",
         "slots": [
             "unavailable",
-            "17:45",
+            "unavailable",
             "unavailable",
             "21:30",
             "21:45"
@@ -3488,21 +3398,6 @@
         "slots": [
             "18:30",
             "18:45",
-            "19:30",
-            "19:45",
-            "20:00"
-        ],
-        "timeWindow": "0:00"
-    },
-    "Mission Beach Cafe": {
-        "name": "Mission Beach Cafe",
-        "url": "http://www.opentable.com/mission-beach-cafe?p=4&sd=2014-11-14 19:30&rid=13636&pt=100,100,100,100,100&d=11/14/2014 19:15:00,11/14/2014 19:30:00,11/14/2014 19:45:00,11/14/2014 19:00:00,11/14/2014 20:00:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
-        "neighborhood": "Mission",
-        "cuisine": "Californian",
-        "reviewCount": "37 reviews",
-        "slots": [
-            "19:00",
-            "19:15",
             "19:30",
             "19:45",
             "20:00"
@@ -3646,13 +3541,13 @@
     },
     "Belcampo": {
         "name": "Belcampo",
-        "url": "http://www.opentable.com/belcampo?p=4&sd=2014-11-14 19:30&rid=148267&pt=100,100,100,100,100&d=11/14/2014 19:15:00,11/14/2014 19:30:00,11/14/2014 19:45:00,11/14/2014 19:00:00,11/14/2014 20:00:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "url": "http://www.opentable.com/belcampo?p=4&sd=2014-11-14 19:30&rid=148267&pt=100,100,100,100,100&d=11/14/2014 19:00:00,11/14/2014 19:30:00,11/14/2014 19:45:00,11/14/2014 18:30:00,11/14/2014 20:00:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
         "neighborhood": "Nob Hill",
         "cuisine": "American",
         "reviewCount": "19 reviews",
         "slots": [
+            "18:30",
             "19:00",
-            "19:15",
             "19:30",
             "19:45",
             "20:00"
@@ -3691,7 +3586,7 @@
     },
     "Park Tavern": {
         "name": "Park Tavern",
-        "url": "http://www.opentable.com/park-tavern-san-francisco?p=4&sd=2014-11-14 19:30&rid=66796&pt=100,100,100,100,100&d=,,11/14/2014 21:15:00,,11/14/2014 21:30:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "url": "http://www.opentable.com/park-tavern-san-francisco?p=4&sd=2014-11-14 19:30&rid=66796&pt=100,100,100,100,100&d=,,11/14/2014 21:30:00,,11/14/2014 21:45:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
         "neighborhood": "North Beach",
         "cuisine": "American",
         "reviewCount": "276 reviews",
@@ -3699,10 +3594,10 @@
             "unavailable",
             "unavailable",
             "unavailable",
-            "21:15",
-            "21:30"
+            "21:30",
+            "21:45"
         ],
-        "timeWindow": "4:16"
+        "timeWindow": "4:31"
     },
     "NEPTUNE's Waterfront Grill & Bar": {
         "name": "NEPTUNE's Waterfront Grill & Bar",
@@ -3976,18 +3871,18 @@
     },
     "Aziza": {
         "name": "Aziza",
-        "url": "http://www.opentable.com/aziza?p=4&sd=2014-11-14 19:30&rid=3174&pt=100,100,100,100,100&d=11/14/2014 18:30:00,,11/14/2014 20:15:00,11/14/2014 17:45:00,11/14/2014 20:30:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "url": "http://www.opentable.com/aziza?p=4&sd=2014-11-14 19:30&rid=3174&pt=100,100,100,100,100&d=11/14/2014 17:45:00,,11/14/2014 20:45:00,11/14/2014 17:30:00,11/14/2014 21:00:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
         "neighborhood": "Richmond District",
         "cuisine": "Moroccan",
         "reviewCount": "198 reviews",
         "slots": [
+            "17:30",
             "17:45",
-            "18:30",
             "unavailable",
-            "20:15",
-            "20:30"
+            "20:45",
+            "21:00"
         ],
-        "timeWindow": "1:45"
+        "timeWindow": "3:00"
     },
     "Colibri - Mexican Bistro": {
         "name": "Colibri - Mexican Bistro",
@@ -4081,18 +3976,18 @@
     },
     "Range": {
         "name": "Range",
-        "url": "http://www.opentable.com/range?p=4&sd=2014-11-14 19:30&rid=4221&pt=100,100,100,100,100&d=11/14/2014 18:00:00,,11/14/2014 22:00:00,11/14/2014 17:45:00,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "url": "http://www.opentable.com/range?p=4&sd=2014-11-14 19:30&rid=4221&pt=100,100,100,100,100&d=11/14/2014 17:45:00,,11/14/2014 22:00:00,11/14/2014 17:30:00,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
         "neighborhood": "Mission",
         "cuisine": "Californian",
         "reviewCount": "199 reviews",
         "slots": [
+            "17:30",
             "17:45",
-            "18:00",
             "unavailable",
             "22:00",
             "unavailable"
         ],
-        "timeWindow": "4:01"
+        "timeWindow": "4:16"
     },
     "L'Olivier": {
         "name": "L'Olivier",
@@ -4246,48 +4141,33 @@
     },
     "Slanted Door": {
         "name": "Slanted Door",
-        "url": "http://www.opentable.com/slanted-door?p=4&sd=2014-11-14 19:30&rid=7740&pt=100,100,100,100,100&d=11/14/2014 17:45:00,,11/14/2014 21:30:00,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "url": "http://www.opentable.com/slanted-door?p=4&sd=2014-11-14 19:30&rid=7740&pt=100,100,100,100,100&d=,,11/14/2014 21:30:00,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
         "neighborhood": "Financial District / Embarcadero",
         "cuisine": "Vietnamese",
         "reviewCount": "792 reviews",
         "slots": [
             "unavailable",
-            "17:45",
+            "unavailable",
             "unavailable",
             "21:30",
             "unavailable"
         ],
         "timeWindow": "5:02"
     },
-    "Cioppino's On The Wharf": {
-        "name": "Cioppino's On The Wharf",
-        "url": "http://www.opentable.com/cioppinos-on-the-wharf?p=4&sd=2014-11-14 19:30&rid=12730&pt=100,100,100,100,100&d=11/14/2014 18:45:00,,11/14/2014 20:00:00,11/14/2014 18:30:00,11/14/2014 20:15:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
-        "neighborhood": "Fisherman's Wharf",
-        "cuisine": "Seafood",
-        "reviewCount": "63 reviews",
-        "slots": [
-            "18:30",
-            "18:45",
-            "unavailable",
-            "20:00",
-            "20:15"
-        ],
-        "timeWindow": "1:15"
-    },
     "Waterbar": {
         "name": "Waterbar",
-        "url": "http://www.opentable.com/waterbar?p=4&sd=2014-11-14 19:30&rid=17035&pt=100,100,100,100,100&d=11/14/2014 18:00:00,,11/14/2014 21:00:00,,11/14/2014 21:15:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "url": "http://www.opentable.com/waterbar?p=4&sd=2014-11-14 19:30&rid=17035&pt=100,100,100,100,100&d=,,11/14/2014 21:15:00,,11/14/2014 21:30:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
         "neighborhood": "SOMA",
         "cuisine": "Seafood",
         "reviewCount": "477 reviews",
         "slots": [
             "unavailable",
-            "18:00",
             "unavailable",
-            "21:00",
-            "21:15"
+            "unavailable",
+            "21:15",
+            "21:30"
         ],
-        "timeWindow": "4:01"
+        "timeWindow": "4:16"
     },
     "Troya Clement": {
         "name": "Troya Clement",
@@ -4306,22 +4186,22 @@
     },
     "Bar Tartine": {
         "name": "Bar Tartine",
-        "url": "http://www.opentable.com/bar-tartine?p=4&sd=2014-11-14 19:30&rid=19651&pt=100,100,100,100,100&d=11/14/2014 17:45:00,,,11/14/2014 17:30:00,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "url": "http://www.opentable.com/bar-tartine?p=4&sd=2014-11-14 19:30&rid=19651&pt=100,100,100,100,100&d=11/14/2014 17:30:00,,,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
         "neighborhood": "Mission",
         "cuisine": "Contemporary American",
         "reviewCount": "215 reviews",
         "slots": [
+            "unavailable",
             "17:30",
-            "17:45",
             "unavailable",
             "unavailable",
             "unavailable"
         ],
-        "timeWindow": "4:16"
+        "timeWindow": "5:02"
     },
     "Serpentine": {
         "name": "Serpentine",
-        "url": "http://www.opentable.com/serpentine?p=4&sd=2014-11-14 19:30&rid=21049&pt=100,100,100,100,100&d=11/14/2014 19:15:00,,11/14/2014 20:00:00,11/14/2014 19:00:00,11/14/2014 20:15:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "url": "http://www.opentable.com/serpentine?p=4&sd=2014-11-14 19:30&rid=21049&pt=100,100,100,100,100&d=11/14/2014 19:15:00,,11/14/2014 20:15:00,11/14/2014 19:00:00,11/14/2014 20:45:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
         "neighborhood": "Potrero Hill / Dogpatch",
         "cuisine": "Contemporary American",
         "reviewCount": "100 reviews",
@@ -4329,10 +4209,10 @@
             "19:00",
             "19:15",
             "unavailable",
-            "20:00",
-            "20:15"
+            "20:15",
+            "20:45"
         ],
-        "timeWindow": "0:45"
+        "timeWindow": "1:00"
     },
     "Gitane": {
         "name": "Gitane",
@@ -4351,18 +4231,18 @@
     },
     "Opaque - Dining In The Dark": {
         "name": "Opaque - Dining In The Dark",
-        "url": "http://www.opentable.com/opaque-dining-in-the-dark?p=4&sd=2014-11-14 19:30&rid=23899&pt=100,100,100,100,100&d=11/14/2014 19:15:00,,11/14/2014 19:45:00,11/14/2014 19:00:00,11/14/2014 20:00:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "url": "http://www.opentable.com/opaque-dining-in-the-dark?p=4&sd=2014-11-14 19:30&rid=23899&pt=100,100,100,100,100&d=11/14/2014 19:15:00,11/14/2014 19:30:00,11/14/2014 19:45:00,11/14/2014 19:00:00,11/14/2014 20:00:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
         "neighborhood": "Civic Center / Hayes Valley / Van Ness",
         "cuisine": "American",
         "reviewCount": "50 reviews",
         "slots": [
             "19:00",
             "19:15",
-            "unavailable",
+            "19:30",
             "19:45",
             "20:00"
         ],
-        "timeWindow": "0:30"
+        "timeWindow": "0:00"
     },
     "Poesia": {
         "name": "Poesia",
@@ -4501,18 +4381,18 @@
     },
     "Bar Agricole": {
         "name": "Bar Agricole",
-        "url": "http://www.opentable.com/bar-agricole?p=4&sd=2014-11-14 19:30&rid=47617&pt=100,100,100,100,100&d=11/14/2014 19:15:00,,11/14/2014 20:15:00,11/14/2014 19:00:00,11/14/2014 20:30:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "url": "http://www.opentable.com/bar-agricole?p=4&sd=2014-11-14 19:30&rid=47617&pt=100,100,100,100,100&d=11/14/2014 18:00:00,,11/14/2014 21:00:00,11/14/2014 17:45:00,11/14/2014 21:15:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
         "neighborhood": "SOMA",
         "cuisine": "Californian",
         "reviewCount": "157 reviews",
         "slots": [
-            "19:00",
-            "19:15",
+            "17:45",
+            "18:00",
             "unavailable",
-            "20:15",
-            "20:30"
+            "21:00",
+            "21:15"
         ],
-        "timeWindow": "1:00"
+        "timeWindow": "3:00"
     },
     "Hayes Street Grill": {
         "name": "Hayes Street Grill",
@@ -4666,18 +4546,18 @@
     },
     "Hakkasan San Francisco": {
         "name": "Hakkasan San Francisco",
-        "url": "http://www.opentable.com/hakkasan-san-francisco?p=4&sd=2014-11-14 19:30&rid=95704&pt=100,100,100,100,100&d=11/14/2014 18:30:00,,11/14/2014 20:30:00,11/14/2014 18:00:00,11/14/2014 21:00:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "url": "http://www.opentable.com/hakkasan-san-francisco?p=4&sd=2014-11-14 19:30&rid=95704&pt=100,100,100,100,100&d=11/14/2014 18:00:00,,11/14/2014 21:00:00,11/14/2014 17:30:00,11/14/2014 21:30:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
         "neighborhood": "Financial District / Embarcadero",
         "cuisine": "Chinese",
         "reviewCount": "201 reviews",
         "slots": [
+            "17:30",
             "18:00",
-            "18:30",
             "unavailable",
-            "20:30",
-            "21:00"
+            "21:00",
+            "21:30"
         ],
-        "timeWindow": "2:00"
+        "timeWindow": "3:00"
     },
     "St. Vincent": {
         "name": "St. Vincent",
@@ -4813,21 +4693,6 @@
             "20:30"
         ],
         "timeWindow": "1:45"
-    },
-    "BOURBON STEAK San Francisco": {
-        "name": "BOURBON STEAK San Francisco",
-        "url": "http://www.opentable.com/bourbon-steak-san-francisco?p=4&sd=2014-11-14 19:30&rid=3009&pt=100,100,100,100,100&d=11/14/2014 19:15:00,,11/14/2014 19:45:00,11/14/2014 19:00:00,11/14/2014 20:00:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
-        "neighborhood": "Downtown / Union Square",
-        "cuisine": "Steakhouse",
-        "reviewCount": "109 reviews",
-        "slots": [
-            "19:00",
-            "19:15",
-            "unavailable",
-            "19:45",
-            "20:00"
-        ],
-        "timeWindow": "0:30"
     },
     "Cafe Claude - Downtown": {
         "name": "Cafe Claude - Downtown",
@@ -4966,18 +4831,18 @@
     },
     "Elite Cafe": {
         "name": "Elite Cafe",
-        "url": "http://www.opentable.com/elite-cafe?p=4&sd=2014-11-14 19:30&rid=5343&pt=100,100,100,1000,1000&d=11/14/2014 19:15:00,11/14/2014 19:30:00,11/14/2014 19:45:00,11/14/2014 17:15:00,11/14/2014 21:45:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "url": "http://www.opentable.com/elite-cafe?p=4&sd=2014-11-14 19:30&rid=5343&pt=100,100,100,1000,1000&d=11/14/2014 17:30:00,,11/14/2014 19:45:00,11/14/2014 17:15:00,11/14/2014 21:45:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
         "neighborhood": "Pacific Heights",
         "cuisine": "Creole / Cajun / Southern",
         "reviewCount": "80 reviews",
         "slots": [
             "17:15",
-            "19:15",
-            "19:30",
+            "17:30",
+            "unavailable",
             "19:45",
             "21:45"
         ],
-        "timeWindow": "0:00"
+        "timeWindow": "2:15"
     },
     "Hops & Hominy": {
         "name": "Hops & Hominy",
@@ -5144,21 +5009,6 @@
         ],
         "timeWindow": "0:00"
     },
-    "Gaspar Brasserie": {
-        "name": "Gaspar Brasserie",
-        "url": "http://www.opentable.com/gaspar-brasserie?p=4&sd=2014-11-14 19:30&rid=144124&pt=100,100,100,100,100&d=11/14/2014 19:15:00,11/14/2014 19:30:00,11/14/2014 19:45:00,11/14/2014 19:00:00,11/14/2014 20:00:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
-        "neighborhood": "Financial District / Embarcadero",
-        "cuisine": "French",
-        "reviewCount": "136 reviews",
-        "slots": [
-            "19:00",
-            "19:15",
-            "19:30",
-            "19:45",
-            "20:00"
-        ],
-        "timeWindow": "0:00"
-    },
     "Kin Khao": {
         "name": "Kin Khao",
         "url": "http://www.opentable.com/kin-khao?p=4&sd=2014-11-14 19:30&rid=144916&pt=100,100,100,100,100&d=11/14/2014 19:15:00,,11/14/2014 19:45:00,11/14/2014 18:45:00,11/14/2014 20:00:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
@@ -5279,21 +5129,6 @@
         ],
         "timeWindow": "0:00"
     },
-    "Plouf": {
-        "name": "Plouf",
-        "url": "http://www.opentable.com/plouf?p=4&sd=2014-11-14 19:30&rid=3604&pt=100,100,100,100,100&d=11/14/2014 19:15:00,11/14/2014 19:30:00,11/14/2014 19:45:00,11/14/2014 19:00:00,11/14/2014 20:00:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
-        "neighborhood": "Financial District / Embarcadero",
-        "cuisine": "French",
-        "reviewCount": "89 reviews",
-        "slots": [
-            "19:00",
-            "19:15",
-            "19:30",
-            "19:45",
-            "20:00"
-        ],
-        "timeWindow": "0:00"
-    },
     "Sens Restaurant": {
         "name": "Sens Restaurant",
         "url": "http://www.opentable.com/sens-restaurant?p=4&sd=2014-11-14 19:30&rid=4375&pt=100,100,100,100,100&d=11/14/2014 19:15:00,11/14/2014 19:30:00,11/14/2014 19:45:00,11/14/2014 19:00:00,11/14/2014 20:00:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
@@ -5308,21 +5143,6 @@
             "20:00"
         ],
         "timeWindow": "0:00"
-    },
-    "Ristorante Milano": {
-        "name": "Ristorante Milano",
-        "url": "http://www.opentable.com/ristorante-milano?p=4&sd=2014-11-14 19:30&rid=4379&pt=100,100,100,100,100&d=11/14/2014 18:30:00,,11/14/2014 20:00:00,11/14/2014 18:00:00,11/14/2014 20:30:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
-        "neighborhood": "Russian Hill",
-        "cuisine": "Italian",
-        "reviewCount": "88 reviews",
-        "slots": [
-            "18:00",
-            "18:30",
-            "unavailable",
-            "20:00",
-            "20:30"
-        ],
-        "timeWindow": "1:30"
     },
     "The Richmond": {
         "name": "The Richmond",
@@ -5461,12 +5281,12 @@
     },
     "Jackson Fillmore Trattoria": {
         "name": "Jackson Fillmore Trattoria",
-        "url": "http://www.opentable.com/jackson-fillmore-trattoria?p=4&sd=2014-11-14 19:30&rid=15406&pt=100,100,100,100,100&d=11/14/2014 19:15:00,11/14/2014 19:30:00,11/14/2014 20:00:00,11/14/2014 18:30:00,11/14/2014 20:30:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "url": "http://www.opentable.com/jackson-fillmore-trattoria?p=4&sd=2014-11-14 19:30&rid=15406&pt=100,100,100,100,100&d=11/14/2014 19:15:00,11/14/2014 19:30:00,11/14/2014 20:00:00,11/14/2014 19:00:00,11/14/2014 20:30:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
         "neighborhood": "Pacific Heights",
         "cuisine": "Italian",
         "reviewCount": "68 reviews",
         "slots": [
-            "18:30",
+            "19:00",
             "19:15",
             "19:30",
             "20:00",
@@ -5476,7 +5296,7 @@
     },
     "Epic Roasthouse": {
         "name": "Epic Roasthouse",
-        "url": "http://www.opentable.com/epic-roasthouse?p=4&sd=2014-11-14 19:30&rid=17032&pt=100,100,100,100,100&d=11/14/2014 18:30:00,,11/14/2014 20:45:00,11/14/2014 18:15:00,11/14/2014 21:00:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "url": "http://www.opentable.com/epic-roasthouse?p=4&sd=2014-11-14 19:30&rid=17032&pt=100,100,100,100,100&d=11/14/2014 18:30:00,,11/14/2014 20:30:00,11/14/2014 18:15:00,11/14/2014 20:45:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
         "neighborhood": "SOMA",
         "cuisine": "Steakhouse",
         "reviewCount": "266 reviews",
@@ -5484,10 +5304,10 @@
             "18:15",
             "18:30",
             "unavailable",
-            "20:45",
-            "21:00"
+            "20:30",
+            "20:45"
         ],
-        "timeWindow": "2:15"
+        "timeWindow": "2:00"
     },
     "Luce": {
         "name": "Luce",
@@ -5714,35 +5534,20 @@
         ],
         "timeWindow": "3:00"
     },
-    "Cafe Claude - Marina": {
-        "name": "Cafe Claude - Marina",
-        "url": "http://www.opentable.com/cafe-claude-marina?p=4&sd=2014-11-14 19:30&rid=109153&pt=100,100,100,100,100&d=11/14/2014 19:15:00,11/14/2014 19:30:00,11/14/2014 19:45:00,11/14/2014 19:00:00,11/14/2014 20:00:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
-        "neighborhood": "Marina / Cow Hollow / Presidio",
-        "cuisine": "French",
-        "reviewCount": "33 reviews",
-        "slots": [
-            "19:00",
-            "19:15",
-            "19:30",
-            "19:45",
-            "20:00"
-        ],
-        "timeWindow": "0:00"
-    },
     "La Urbana": {
         "name": "La Urbana",
-        "url": "http://www.opentable.com/la-urbana?p=4&sd=2014-11-14 19:30&rid=109705&pt=100,100,100,100,100&d=11/14/2014 19:00:00,,11/14/2014 20:30:00,11/14/2014 18:30:00,11/14/2014 21:00:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "url": "http://www.opentable.com/la-urbana?p=4&sd=2014-11-14 19:30&rid=109705&pt=100,100,100,100,100&d=11/14/2014 18:00:00,,11/14/2014 21:00:00,11/14/2014 17:30:00,11/14/2014 21:30:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
         "neighborhood": "North Panhandle / USF",
         "cuisine": "Contemporary Mexican",
         "reviewCount": "90 reviews",
         "slots": [
-            "18:30",
-            "19:00",
+            "17:30",
+            "18:00",
             "unavailable",
-            "20:30",
-            "21:00"
+            "21:00",
+            "21:30"
         ],
-        "timeWindow": "1:30"
+        "timeWindow": "3:00"
     },
     "Z&Y Restaurant": {
         "name": "Z&Y Restaurant",
@@ -5803,21 +5608,6 @@
             "22:00"
         ],
         "timeWindow": "4:00"
-    },
-    "Tosca Cafe": {
-        "name": "Tosca Cafe",
-        "url": "http://www.opentable.com/tosca-cafe-san-francisco?p=4&sd=2014-11-14 19:30&rid=148891&pt=100,100,100,100,100&d=,,11/14/2014 22:00:00,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
-        "neighborhood": "North Beach",
-        "cuisine": "Italian",
-        "reviewCount": "190 reviews",
-        "slots": [
-            "unavailable",
-            "unavailable",
-            "unavailable",
-            "22:00",
-            "unavailable"
-        ],
-        "timeWindow": "5:02"
     },
     "Thirsty Bear": {
         "name": "Thirsty Bear",
@@ -6061,18 +5851,18 @@
     },
     "Beso": {
         "name": "Beso",
-        "url": "http://www.opentable.com/beso?p=4&sd=2014-11-14 19:30&rid=145426&pt=100,100,100,100,100&d=11/14/2014 18:00:00,,11/14/2014 22:00:00,11/14/2014 17:45:00,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "url": "http://www.opentable.com/beso?p=4&sd=2014-11-14 19:30&rid=145426&pt=100,100,100,100,100&d=11/14/2014 17:45:00,,11/14/2014 22:00:00,11/14/2014 17:30:00,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
         "neighborhood": "Mission",
         "cuisine": "Spanish",
         "reviewCount": "115 reviews",
         "slots": [
+            "17:30",
             "17:45",
-            "18:00",
             "unavailable",
             "22:00",
             "unavailable"
         ],
-        "timeWindow": "4:01"
+        "timeWindow": "4:16"
     },
     "The Plant - Cafe Organic": {
         "name": "The Plant - Cafe Organic",
@@ -6166,18 +5956,18 @@
     },
     "Commonwealth - San Francisco": {
         "name": "Commonwealth - San Francisco",
-        "url": "http://www.opentable.com/commonwealth-san-francisco?p=4&sd=2014-11-14 19:30&rid=47224&pt=100,100,100,100,100&d=11/14/2014 18:00:00,,11/14/2014 22:00:00,11/14/2014 17:30:00,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "url": "http://www.opentable.com/commonwealth-san-francisco?p=4&sd=2014-11-14 19:30&rid=47224&pt=100,100,100,100,100&d=11/14/2014 17:30:00,,11/14/2014 22:00:00,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
         "neighborhood": "Mission",
         "cuisine": "Contemporary American",
         "reviewCount": "106 reviews",
         "slots": [
+            "unavailable",
             "17:30",
-            "18:00",
             "unavailable",
             "22:00",
             "unavailable"
         ],
-        "timeWindow": "4:01"
+        "timeWindow": "5:02"
     },
     "Firefly": {
         "name": "Firefly",
@@ -6661,7 +6451,7 @@
     },
     "Contigo": {
         "name": "Contigo",
-        "url": "http://www.opentable.com/contigo?p=4&sd=2014-11-14 19:30&rid=45052&pt=100,100,100,100,100&d=11/14/2014 18:15:00,,11/14/2014 21:00:00,11/14/2014 18:00:00,11/14/2014 21:15:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "url": "http://www.opentable.com/contigo?p=4&sd=2014-11-14 19:30&rid=45052&pt=100,100,100,100,100&d=11/14/2014 18:15:00,,11/14/2014 21:45:00,11/14/2014 18:00:00,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
         "neighborhood": "Noe Valley",
         "cuisine": "Tapas / Small Plates",
         "reviewCount": "120 reviews",
@@ -6669,10 +6459,10 @@
             "18:00",
             "18:15",
             "unavailable",
-            "21:00",
-            "21:15"
+            "21:45",
+            "unavailable"
         ],
-        "timeWindow": "2:45"
+        "timeWindow": "3:46"
     },
     "Limon Rotisserie - Valencia": {
         "name": "Limon Rotisserie - Valencia",
@@ -6854,21 +6644,6 @@
         ],
         "timeWindow": "1:30"
     },
-    "Brandy Ho's Hunan Food": {
-        "name": "Brandy Ho's Hunan Food",
-        "url": "http://www.opentable.com/brandy-hos-hunan-food?p=4&sd=2014-11-14 19:30&rid=3475&pt=100,100,100,100,100&d=11/14/2014 19:15:00,11/14/2014 19:30:00,11/14/2014 19:45:00,11/14/2014 19:00:00,11/14/2014 20:00:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
-        "neighborhood": "North Beach",
-        "cuisine": "Chinese",
-        "reviewCount": "8 reviews",
-        "slots": [
-            "19:00",
-            "19:15",
-            "19:30",
-            "19:45",
-            "20:00"
-        ],
-        "timeWindow": "0:00"
-    },
     "Fringale": {
         "name": "Fringale",
         "url": "http://www.opentable.com/fringale?p=4&sd=2014-11-14 19:30&rid=3128&pt=100,100,100,100,1000&d=11/14/2014 18:00:00,,11/14/2014 20:00:00,11/14/2014 17:45:00,11/14/2014 21:30:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
@@ -6898,21 +6673,6 @@
             "unavailable"
         ],
         "timeWindow": "5:02"
-    },
-    "Trace": {
-        "name": "Trace",
-        "url": "http://www.opentable.com/trace?p=4&sd=2014-11-14 19:30&rid=2025&pt=100,100,100,1000,100&d=11/14/2014 19:15:00,11/14/2014 19:30:00,11/14/2014 19:45:00,11/14/2014 19:00:00,11/14/2014 20:00:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
-        "neighborhood": "SOMA",
-        "cuisine": "Contemporary American",
-        "reviewCount": "27 reviews",
-        "slots": [
-            "19:00",
-            "19:15",
-            "19:30",
-            "19:45",
-            "20:00"
-        ],
-        "timeWindow": "0:00"
     },
     "Coi": {
         "name": "Coi",
@@ -7004,6 +6764,51 @@
         ],
         "timeWindow": "0:00"
     },
+    "Camp BBQ": {
+        "name": "Camp BBQ",
+        "url": "http://www.opentable.com/camp-bbq?p=4&sd=2014-11-14 19:30&rid=95476&pt=100,100,100,100,100&d=11/14/2014 19:15:00,11/14/2014 19:30:00,11/14/2014 19:45:00,11/14/2014 19:00:00,11/14/2014 20:00:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "neighborhood": "Richmond District",
+        "cuisine": "Japanese",
+        "reviewCount": "5 reviews",
+        "slots": [
+            "19:00",
+            "19:15",
+            "19:30",
+            "19:45",
+            "20:00"
+        ],
+        "timeWindow": "0:00"
+    },
+    "Pescatore": {
+        "name": "Pescatore",
+        "url": "http://www.opentable.com/pescatore-san-francisco?p=4&sd=2014-11-14 19:30&rid=122&pt=100,100,100,100,100&d=11/14/2014 19:15:00,11/14/2014 19:30:00,11/14/2014 19:45:00,11/14/2014 18:45:00,11/14/2014 20:00:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "neighborhood": "Fisherman's Wharf",
+        "cuisine": "Italian",
+        "reviewCount": "36 reviews",
+        "slots": [
+            "18:45",
+            "19:15",
+            "19:30",
+            "19:45",
+            "20:00"
+        ],
+        "timeWindow": "0:00"
+    },
+    "Alexander's Steakhouse - SF": {
+        "name": "Alexander's Steakhouse - SF",
+        "url": "http://www.opentable.com/alexanders-steakhouse-sf?p=4&sd=2014-11-14 19:30&rid=681&pt=100,100,100,1000,1000&d=11/14/2014 18:45:00,,11/14/2014 20:30:00,11/14/2014 18:15:00,11/14/2014 20:45:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "neighborhood": "SOMA",
+        "cuisine": "Steakhouse",
+        "reviewCount": "134 reviews",
+        "slots": [
+            "18:15",
+            "18:45",
+            "unavailable",
+            "20:30",
+            "20:45"
+        ],
+        "timeWindow": "1:45"
+    },
     "E&O Asian Kitchen": {
         "name": "E&O Asian Kitchen",
         "url": "http://www.opentable.com/e-and-o-asian-kitchen?p=4&sd=2014-11-14 19:30&rid=17&pt=100,100,100,100,100&d=11/14/2014 19:15:00,11/14/2014 19:30:00,11/14/2014 19:45:00,11/14/2014 19:00:00,11/14/2014 20:00:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
@@ -7034,27 +6839,12 @@
         ],
         "timeWindow": "2:31"
     },
-    "Pescatore": {
-        "name": "Pescatore",
-        "url": "http://www.opentable.com/pescatore-san-francisco?p=4&sd=2014-11-14 19:30&rid=122&pt=100,100,100,100,100&d=11/14/2014 19:15:00,11/14/2014 19:30:00,11/14/2014 19:45:00,11/14/2014 18:45:00,11/14/2014 20:00:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
-        "neighborhood": "Fisherman's Wharf",
-        "cuisine": "Italian",
-        "reviewCount": "37 reviews",
-        "slots": [
-            "18:45",
-            "19:15",
-            "19:30",
-            "19:45",
-            "20:00"
-        ],
-        "timeWindow": "0:00"
-    },
     "Cocotte": {
         "name": "Cocotte",
         "url": "http://www.opentable.com/cocotte-san-francisco?p=4&sd=2014-11-14 19:30&rid=148&pt=100,100,100,100,100&d=11/14/2014 18:45:00,11/14/2014 19:30:00,11/14/2014 19:45:00,11/14/2014 18:30:00,11/14/2014 20:00:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
         "neighborhood": "Russian Hill",
         "cuisine": "French",
-        "reviewCount": "103 reviews",
+        "reviewCount": "99 reviews",
         "slots": [
             "18:30",
             "18:45",
@@ -7064,20 +6854,35 @@
         ],
         "timeWindow": "0:00"
     },
-    "Alexander's Steakhouse - SF": {
-        "name": "Alexander's Steakhouse - SF",
-        "url": "http://www.opentable.com/alexanders-steakhouse-sf?p=4&sd=2014-11-14 19:30&rid=681&pt=100,100,100,1000,1000&d=11/14/2014 18:45:00,,11/14/2014 20:30:00,11/14/2014 18:15:00,11/14/2014 20:45:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
-        "neighborhood": "SOMA",
-        "cuisine": "Steakhouse",
-        "reviewCount": "136 reviews",
+    "Ideale": {
+        "name": "Ideale",
+        "url": "http://www.opentable.com/ideale?p=4&sd=2014-11-14 19:30&rid=282&pt=100,100,100,100,100&d=11/14/2014 19:15:00,11/14/2014 19:30:00,11/14/2014 19:45:00,11/14/2014 18:45:00,11/14/2014 20:15:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "neighborhood": "North Beach",
+        "cuisine": "Italian",
+        "reviewCount": "108 reviews",
         "slots": [
-            "18:15",
             "18:45",
-            "unavailable",
-            "20:30",
-            "20:45"
+            "19:15",
+            "19:30",
+            "19:45",
+            "20:15"
         ],
-        "timeWindow": "1:45"
+        "timeWindow": "0:00"
+    },
+    "Trace": {
+        "name": "Trace",
+        "url": "http://www.opentable.com/trace?p=4&sd=2014-11-14 19:30&rid=2025&pt=100,100,100,1000,100&d=11/14/2014 19:15:00,11/14/2014 19:30:00,11/14/2014 19:45:00,11/14/2014 19:00:00,11/14/2014 20:00:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "neighborhood": "SOMA",
+        "cuisine": "Contemporary American",
+        "reviewCount": "27 reviews",
+        "slots": [
+            "19:00",
+            "19:15",
+            "19:30",
+            "19:45",
+            "20:00"
+        ],
+        "timeWindow": "0:00"
     },
     "MKT Restaurant and Bar": {
         "name": "MKT Restaurant and Bar",
@@ -7091,6 +6896,171 @@
             "19:30",
             "19:45",
             "20:30"
+        ],
+        "timeWindow": "0:00"
+    },
+    "BOURBON STEAK San Francisco": {
+        "name": "BOURBON STEAK San Francisco",
+        "url": "http://www.opentable.com/bourbon-steak-san-francisco?p=4&sd=2014-11-14 19:30&rid=3009&pt=100,100,100,100,100&d=11/14/2014 19:15:00,,11/14/2014 19:45:00,11/14/2014 19:00:00,11/14/2014 20:00:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "neighborhood": "Downtown / Union Square",
+        "cuisine": "Steakhouse",
+        "reviewCount": "109 reviews",
+        "slots": [
+            "19:00",
+            "19:15",
+            "unavailable",
+            "19:45",
+            "20:00"
+        ],
+        "timeWindow": "0:30"
+    },
+    "Brandy Ho's Hunan Food": {
+        "name": "Brandy Ho's Hunan Food",
+        "url": "http://www.opentable.com/brandy-hos-hunan-food?p=4&sd=2014-11-14 19:30&rid=3475&pt=100,100,100,100,100&d=11/14/2014 19:15:00,11/14/2014 19:30:00,11/14/2014 19:45:00,11/14/2014 19:00:00,11/14/2014 20:00:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "neighborhood": "North Beach",
+        "cuisine": "Chinese",
+        "reviewCount": "8 reviews",
+        "slots": [
+            "19:00",
+            "19:15",
+            "19:30",
+            "19:45",
+            "20:00"
+        ],
+        "timeWindow": "0:00"
+    },
+    "Plouf": {
+        "name": "Plouf",
+        "url": "http://www.opentable.com/plouf?p=4&sd=2014-11-14 19:30&rid=3604&pt=100,100,100,100,100&d=11/14/2014 19:15:00,11/14/2014 19:30:00,11/14/2014 19:45:00,11/14/2014 19:00:00,11/14/2014 20:00:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "neighborhood": "Financial District / Embarcadero",
+        "cuisine": "French",
+        "reviewCount": "90 reviews",
+        "slots": [
+            "19:00",
+            "19:15",
+            "19:30",
+            "19:45",
+            "20:00"
+        ],
+        "timeWindow": "0:00"
+    },
+    "Ristorante Milano": {
+        "name": "Ristorante Milano",
+        "url": "http://www.opentable.com/ristorante-milano?p=4&sd=2014-11-14 19:30&rid=4379&pt=100,100,100,100,100&d=11/14/2014 18:30:00,,11/14/2014 20:00:00,11/14/2014 18:00:00,11/14/2014 20:30:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "neighborhood": "Russian Hill",
+        "cuisine": "Italian",
+        "reviewCount": "86 reviews",
+        "slots": [
+            "18:00",
+            "18:30",
+            "unavailable",
+            "20:00",
+            "20:30"
+        ],
+        "timeWindow": "1:30"
+    },
+    "Zuni Cafe": {
+        "name": "Zuni Cafe",
+        "url": "http://www.opentable.com/zuni-cafe?p=4&sd=2014-11-14 19:30&rid=4485&pt=100,100,100,100,100&d=,,11/14/2014 21:45:00,,11/14/2014 22:00:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "neighborhood": "Civic Center / Hayes Valley / Van Ness",
+        "cuisine": "Modern European",
+        "reviewCount": "411 reviews",
+        "slots": [
+            "unavailable",
+            "unavailable",
+            "unavailable",
+            "21:45",
+            "22:00"
+        ],
+        "timeWindow": "4:46"
+    },
+    "Tres - SF (fka Tres Agaves)": {
+        "name": "Tres - SF (fka Tres Agaves)",
+        "url": "http://www.opentable.com/tres-sf-fka-tres-agaves?p=4&sd=2014-11-14 19:30&rid=4959&pt=100,100,100,100,100&d=11/14/2014 19:15:00,11/14/2014 19:30:00,11/14/2014 19:45:00,11/14/2014 19:00:00,11/14/2014 20:00:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "neighborhood": "SOMA",
+        "cuisine": "Mexican / Southwestern",
+        "reviewCount": "62 reviews",
+        "slots": [
+            "19:00",
+            "19:15",
+            "19:30",
+            "19:45",
+            "20:00"
+        ],
+        "timeWindow": "0:00"
+    },
+    "Mission Beach Cafe": {
+        "name": "Mission Beach Cafe",
+        "url": "http://www.opentable.com/mission-beach-cafe?p=4&sd=2014-11-14 19:30&rid=13636&pt=100,100,100,100,100&d=11/14/2014 19:15:00,11/14/2014 19:30:00,11/14/2014 19:45:00,11/14/2014 19:00:00,11/14/2014 20:00:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "neighborhood": "Mission",
+        "cuisine": "Californian",
+        "reviewCount": "37 reviews",
+        "slots": [
+            "19:00",
+            "19:15",
+            "19:30",
+            "19:45",
+            "20:00"
+        ],
+        "timeWindow": "0:00"
+    },
+    "La Mar Cebicheria Peruana": {
+        "name": "La Mar Cebicheria Peruana",
+        "url": "http://www.opentable.com/la-mar-cebicheria-peruana?p=4&sd=2014-11-14 19:30&rid=25198&pt=100,100,100,100,100&d=11/14/2014 18:00:00,,11/14/2014 20:15:00,11/14/2014 17:30:00,11/14/2014 20:30:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "neighborhood": "Financial District / Embarcadero",
+        "cuisine": "Peruvian",
+        "reviewCount": "323 reviews",
+        "slots": [
+            "17:30",
+            "18:00",
+            "unavailable",
+            "20:15",
+            "20:30"
+        ],
+        "timeWindow": "2:15"
+    },
+    "OTD (aka Out the Door - Bush St.)": {
+        "name": "OTD (aka Out the Door - Bush St.)",
+        "url": "http://www.opentable.com/otd-aka-out-the-door-bush-st?p=4&sd=2014-11-14 19:30&rid=35182&pt=100,100,100,100,100&d=11/14/2014 17:45:00,,11/14/2014 19:45:00,11/14/2014 17:30:00,11/14/2014 21:00:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "neighborhood": "Pacific Heights",
+        "cuisine": "Vietnamese",
+        "reviewCount": "102 reviews",
+        "slots": [
+            "17:30",
+            "17:45",
+            "unavailable",
+            "19:45",
+            "21:00"
+        ],
+        "timeWindow": "2:00"
+    },
+    "Sanraku Metreon": {
+        "name": "Sanraku Metreon",
+        "url": "http://www.opentable.com/sanraku-metreon?p=4&sd=2014-11-14 19:30&rid=88192&pt=100,100,100,100,100&d=11/14/2014 19:15:00,11/14/2014 19:30:00,11/14/2014 19:45:00,11/14/2014 19:00:00,11/14/2014 20:00:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "neighborhood": "SOMA",
+        "cuisine": "Sushi",
+        "reviewCount": "29 reviews",
+        "slots": [
+            "19:00",
+            "19:15",
+            "19:30",
+            "19:45",
+            "20:00"
+        ],
+        "timeWindow": "0:00"
+    },
+    "Cafe Claude - Marina": {
+        "name": "Cafe Claude - Marina",
+        "url": "http://www.opentable.com/cafe-claude-marina?p=4&sd=2014-11-14 19:30&rid=109153&pt=100,100,100,100,100&d=11/14/2014 19:15:00,11/14/2014 19:30:00,11/14/2014 19:45:00,11/14/2014 19:00:00,11/14/2014 20:00:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "neighborhood": "Marina / Cow Hollow / Presidio",
+        "cuisine": "French",
+        "reviewCount": "33 reviews",
+        "slots": [
+            "19:00",
+            "19:15",
+            "19:30",
+            "19:45",
+            "20:00"
         ],
         "timeWindow": "0:00"
     },
@@ -7109,27 +7079,12 @@
         ],
         "timeWindow": "0:00"
     },
-    "Tres - SF (fka Tres Agaves)": {
-        "name": "Tres - SF (fka Tres Agaves)",
-        "url": "http://www.opentable.com/tres-sf-fka-tres-agaves?p=4&sd=2014-11-14 19:30&rid=4959&pt=100,100,100,100,100&d=11/14/2014 19:15:00,11/14/2014 19:30:00,11/14/2014 19:45:00,11/14/2014 19:00:00,11/14/2014 20:00:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
-        "neighborhood": "SOMA",
-        "cuisine": "Mexican / Southwestern",
-        "reviewCount": "62 reviews",
-        "slots": [
-            "19:00",
-            "19:15",
-            "19:30",
-            "19:45",
-            "20:00"
-        ],
-        "timeWindow": "0:00"
-    },
     "Americano Restaurant - Hotel Vitale": {
         "name": "Americano Restaurant - Hotel Vitale",
         "url": "http://www.opentable.com/americano-restaurant-hotel-vitale?p=4&sd=2014-11-14 19:30&rid=3972&pt=100,100,100,100,100&d=11/14/2014 19:15:00,11/14/2014 19:30:00,11/14/2014 19:45:00,11/14/2014 19:00:00,11/14/2014 20:00:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
         "neighborhood": "Financial District / Embarcadero",
         "cuisine": "Italian",
-        "reviewCount": "37 reviews",
+        "reviewCount": "36 reviews",
         "slots": [
             "19:00",
             "19:15",
@@ -7139,12 +7094,12 @@
         ],
         "timeWindow": "0:00"
     },
-    "Camp BBQ": {
-        "name": "Camp BBQ",
-        "url": "http://www.opentable.com/camp-bbq?p=4&sd=2014-11-14 19:30&rid=95476&pt=100,100,100,100,100&d=11/14/2014 19:15:00,11/14/2014 19:30:00,11/14/2014 19:45:00,11/14/2014 19:00:00,11/14/2014 20:00:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
-        "neighborhood": "Richmond District",
-        "cuisine": "Japanese",
-        "reviewCount": "5 reviews",
+    "Market Street Grill": {
+        "name": "Market Street Grill",
+        "url": "http://www.opentable.com/market-street-grill-san-francisco?p=4&sd=2014-11-14 19:30&rid=12862&pt=100,100,100,100,100&d=11/14/2014 19:15:00,11/14/2014 19:30:00,11/14/2014 19:45:00,11/14/2014 19:00:00,11/14/2014 20:00:00&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "neighborhood": "Civic Center / Hayes Valley / Van Ness",
+        "cuisine": "Californian",
+        "reviewCount": "93 reviews",
         "slots": [
             "19:00",
             "19:15",
@@ -7153,42 +7108,6 @@
             "20:00"
         ],
         "timeWindow": "0:00"
-    },
-    "cityhouse Restaurant - Parc 55 Hotel": {
-        "name": "cityhouse Restaurant - Parc 55 Hotel",
-        "url": "http://www.opentable.com/cityhouse-restaurant-parc-55-hotel?p=4&sd=2014-11-14 19:30&rid=31408&pt=100,100,100,100,100&d=,,,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
-        "neighborhood": "Downtown / Union Square",
-        "cuisine": "Steakhouse",
-        "reviewCount": "7 reviews",
-        "slots": [],
-        "timeWindow": "5:02"
-    },
-    "Presidio Cafe - Presidio Golf Course": {
-        "name": "Presidio Cafe - Presidio Golf Course",
-        "url": "http://www.opentable.com/presidio-cafe-presidio-golf-course?p=4&sd=2014-11-14 19:30&rid=37822&pt=100,100,100,100,100&d=,,,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
-        "neighborhood": "Presidio Heights",
-        "cuisine": "American",
-        "reviewCount": "30 reviews",
-        "slots": [],
-        "timeWindow": "5:02"
-    },
-    "Cotogna": {
-        "name": "Cotogna",
-        "url": "http://www.opentable.com/cotogna?p=4&sd=2014-11-14 19:30&rid=52636&pt=100,100,100,100,100&d=,,,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
-        "neighborhood": "Financial District / Embarcadero",
-        "cuisine": "Italian",
-        "reviewCount": "178 reviews",
-        "slots": [],
-        "timeWindow": "5:02"
-    },
-    "Pasion - SF": {
-        "name": "Pasion - SF",
-        "url": "http://www.opentable.com/pasion-sf?p=4&sd=2014-11-14 19:30&rid=53857&pt=100,100,100,100,100&d=,,,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
-        "neighborhood": "Sunset District",
-        "cuisine": "Latin American",
-        "reviewCount": "55 reviews",
-        "slots": [],
-        "timeWindow": "5:02"
     },
     "Acquerello": {
         "name": "Acquerello",
@@ -7226,12 +7145,84 @@
         "slots": [],
         "timeWindow": "5:02"
     },
-    "Chino": {
-        "name": "Chino",
-        "url": "http://www.opentable.com/chino?p=4&sd=2014-11-14 19:30&rid=148897&pt=100,100,100,100,100&d=,,,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+    "Cotogna": {
+        "name": "Cotogna",
+        "url": "http://www.opentable.com/cotogna?p=4&sd=2014-11-14 19:30&rid=52636&pt=100,100,100,100,100&d=,,,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "neighborhood": "Financial District / Embarcadero",
+        "cuisine": "Italian",
+        "reviewCount": "178 reviews",
+        "slots": [],
+        "timeWindow": "5:02"
+    },
+    "Pasion - SF": {
+        "name": "Pasion - SF",
+        "url": "http://www.opentable.com/pasion-sf?p=4&sd=2014-11-14 19:30&rid=53857&pt=100,100,100,100,100&d=,,,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "neighborhood": "Sunset District",
+        "cuisine": "Latin American",
+        "reviewCount": "55 reviews",
+        "slots": [],
+        "timeWindow": "5:02"
+    },
+    "TBD Restaurant": {
+        "name": "TBD Restaurant",
+        "url": "http://www.opentable.com/tbd-restaurant?p=4&sd=2014-11-14 19:30&rid=144724&pt=100,100,100,100,100&d=,,,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "neighborhood": "SOMA",
+        "cuisine": "Californian",
+        "reviewCount": "67 reviews",
+        "slots": [],
+        "timeWindow": "5:02"
+    },
+    "Manos Nouveau": {
+        "name": "Manos Nouveau",
+        "url": "http://www.opentable.com/manos-nouveau?p=4&sd=2014-11-14 19:30&rid=144853&pt=100,100,100,100,100&d=,,,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
         "neighborhood": "Mission",
-        "cuisine": "Contemporary Asian",
-        "reviewCount": "20 reviews",
+        "cuisine": "Latin American",
+        "reviewCount": "28 reviews",
+        "slots": [],
+        "timeWindow": "5:02"
+    },
+    "Top of the Mark": {
+        "name": "Top of the Mark",
+        "url": "http://www.opentable.com/top-of-the-mark?p=4&sd=2014-11-14 19:30&rid=2104&pt=100,100,100,100,100&d=,,,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "neighborhood": "Nob Hill",
+        "cuisine": "Californian",
+        "reviewCount": "38 reviews",
+        "slots": [],
+        "timeWindow": "5:02"
+    },
+    "cityhouse Restaurant - Parc 55 Hotel": {
+        "name": "cityhouse Restaurant - Parc 55 Hotel",
+        "url": "http://www.opentable.com/cityhouse-restaurant-parc-55-hotel?p=4&sd=2014-11-14 19:30&rid=31408&pt=100,100,100,100,100&d=,,,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "neighborhood": "Downtown / Union Square",
+        "cuisine": "Steakhouse",
+        "reviewCount": "7 reviews",
+        "slots": [],
+        "timeWindow": "5:02"
+    },
+    "Presidio Cafe - Presidio Golf Course": {
+        "name": "Presidio Cafe - Presidio Golf Course",
+        "url": "http://www.opentable.com/presidio-cafe-presidio-golf-course?p=4&sd=2014-11-14 19:30&rid=37822&pt=100,100,100,100,100&d=,,,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "neighborhood": "Presidio Heights",
+        "cuisine": "American",
+        "reviewCount": "30 reviews",
+        "slots": [],
+        "timeWindow": "5:02"
+    },
+    "nopa - San Francisco": {
+        "name": "nopa - San Francisco",
+        "url": "http://www.opentable.com/nopa-san-francisco?p=4&sd=2014-11-14 19:30&rid=43240&pt=100,100,100,100,100&d=,,,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "neighborhood": "North Panhandle / USF",
+        "cuisine": "Californian",
+        "reviewCount": "198 reviews",
+        "slots": [],
+        "timeWindow": "5:02"
+    },
+    "SOMA Restaurant & Bar": {
+        "name": "SOMA Restaurant & Bar",
+        "url": "http://www.opentable.com/soma-restaurant-and-bar?p=4&sd=2014-11-14 19:30&rid=74242&pt=100,100,100,100,100&d=,,,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "neighborhood": "SOMA",
+        "cuisine": "Mediterranean",
+        "reviewCount": "5 reviews",
         "slots": [],
         "timeWindow": "5:02"
     },
@@ -7253,87 +7244,6 @@
         "slots": [],
         "timeWindow": "5:02"
     },
-    "Rich Table": {
-        "name": "Rich Table",
-        "url": "http://www.opentable.com/rich-table?p=4&sd=2014-11-14 19:30&rid=97309&pt=100,100,100,100,100&d=,,,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
-        "neighborhood": "Civic Center / Hayes Valley / Van Ness",
-        "cuisine": "Californian",
-        "reviewCount": "203 reviews",
-        "slots": [],
-        "timeWindow": "5:02"
-    },
-    "Coqueta": {
-        "name": "Coqueta",
-        "url": "http://www.opentable.com/coqueta?p=4&sd=2014-11-14 19:30&rid=103693&pt=100,100,100,100,100&d=,,,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
-        "neighborhood": "Financial District / Embarcadero",
-        "cuisine": "Spanish",
-        "reviewCount": "267 reviews",
-        "slots": [],
-        "timeWindow": "5:02"
-    },
-    "The Prescott Hotel and Events": {
-        "name": "The Prescott Hotel and Events",
-        "url": "http://www.opentable.com/restaurant/profile/1806?p=4&sd=2014-11-14 19:30&rid=1806&pt=100,100,100,100,100&d=,,,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
-        "neighborhood": "Downtown / Union Square",
-        "cuisine": "Contemporary American",
-        "reviewCount": "",
-        "slots": [],
-        "timeWindow": "5:02"
-    },
-    "Ichi Sushi & Ni Bar": {
-        "name": "Ichi Sushi & Ni Bar",
-        "url": "http://www.opentable.com/ichi-sushi-and-ni-bar?p=4&sd=2014-11-14 19:30&rid=117262&pt=100,100,100,100,100&d=,,,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
-        "neighborhood": "Mission",
-        "cuisine": "Japanese",
-        "reviewCount": "70 reviews",
-        "slots": [],
-        "timeWindow": "5:02"
-    },
-    "Atelier Crenn": {
-        "name": "Atelier Crenn",
-        "url": "http://www.opentable.com/atelier-crenn?p=4&sd=2014-11-14 19:30&rid=52849&pt=100,100,100,100,100&d=,,,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
-        "neighborhood": "Marina / Cow Hollow / Presidio",
-        "cuisine": "French",
-        "reviewCount": "104 reviews",
-        "slots": [],
-        "timeWindow": "5:02"
-    },
-    "KUSAKABE": {
-        "name": "KUSAKABE",
-        "url": "http://www.opentable.com/kusakabe?p=4&sd=2014-11-14 19:30&rid=149539&pt=100,100,100,100,100&d=,,,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
-        "neighborhood": "Financial District / Embarcadero",
-        "cuisine": "Sushi",
-        "reviewCount": "59 reviews",
-        "slots": [],
-        "timeWindow": "5:02"
-    },
-    "Perry's - Design Center": {
-        "name": "Perry's - Design Center",
-        "url": "http://www.opentable.com/perrys-design-center?p=4&sd=2014-11-14 19:30&rid=43684&pt=100,100,100,100,100&d=,,,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
-        "neighborhood": "Potrero Hill / Dogpatch",
-        "cuisine": "American",
-        "reviewCount": "3 reviews",
-        "slots": [],
-        "timeWindow": "5:02"
-    },
-    "Woodwards Garden": {
-        "name": "Woodwards Garden",
-        "url": "http://www.opentable.com/woodwards-garden?p=4&sd=2014-11-14 19:30&rid=44986&pt=100,100,100,100,100&d=,,,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
-        "neighborhood": "Mission",
-        "cuisine": "American",
-        "reviewCount": "50 reviews",
-        "slots": [],
-        "timeWindow": "5:02"
-    },
-    "Maruya": {
-        "name": "Maruya",
-        "url": "http://www.opentable.com/maruya?p=4&sd=2014-11-14 19:30&rid=114487&pt=100,100,100,100,100&d=,,,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
-        "neighborhood": "Mission",
-        "cuisine": "Japanese",
-        "reviewCount": "35 reviews",
-        "slots": [],
-        "timeWindow": "5:02"
-    },
     "Yank Sing - Rincon Center": {
         "name": "Yank Sing - Rincon Center",
         "url": "http://www.opentable.com/yank-sing-rincon-center?p=4&sd=2014-11-14 19:30&rid=149530&pt=100,100,100,100,100&d=,,,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
@@ -7343,39 +7253,12 @@
         "slots": [],
         "timeWindow": "5:02"
     },
-    "Sociale": {
-        "name": "Sociale",
-        "url": "http://www.opentable.com/sociale?p=4&sd=2014-11-14 19:30&rid=2131&pt=100,100,100,100,100&d=,,,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
-        "neighborhood": "Presidio Heights",
-        "cuisine": "Italian",
-        "reviewCount": "104 reviews",
-        "slots": [],
-        "timeWindow": "5:02"
-    },
-    "Garden Court": {
-        "name": "Garden Court",
-        "url": "http://www.opentable.com/garden-court?p=4&sd=2014-11-14 19:30&rid=2657&pt=100,100,100,100,100&d=,,,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
-        "neighborhood": "Financial District / Embarcadero",
-        "cuisine": "Californian",
-        "reviewCount": "62 reviews",
-        "slots": [],
-        "timeWindow": "5:02"
-    },
-    "Marlowe": {
-        "name": "Marlowe",
-        "url": "http://www.opentable.com/marlowe?p=4&sd=2014-11-14 19:30&rid=15424&pt=100,100,100,100,100&d=,,,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
-        "neighborhood": "SOMA",
+    "Bistro 10UN": {
+        "name": "Bistro 10UN",
+        "url": "http://www.opentable.com/bistro-10un?p=4&sd=2014-11-14 19:30&rid=52642&pt=100,100,100,100,100&d=,,,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "neighborhood": "Civic Center / Hayes Valley / Van Ness",
         "cuisine": "American",
-        "reviewCount": "133 reviews",
-        "slots": [],
-        "timeWindow": "5:02"
-    },
-    "Vitrine - St Regis Hotel San Francisco": {
-        "name": "Vitrine - St Regis Hotel San Francisco",
-        "url": "http://www.opentable.com/vitrine-st-regis-hotel-san-francisco?p=4&sd=2014-11-14 19:30&rid=16615&pt=100,100,100,100,100&d=,,,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
-        "neighborhood": "SOMA",
-        "cuisine": "American",
-        "reviewCount": "11 reviews",
+        "reviewCount": "19 reviews",
         "slots": [],
         "timeWindow": "5:02"
     },
@@ -7451,93 +7334,48 @@
         "slots": [],
         "timeWindow": "5:02"
     },
-    "TBD Restaurant": {
-        "name": "TBD Restaurant",
-        "url": "http://www.opentable.com/tbd-restaurant?p=4&sd=2014-11-14 19:30&rid=144724&pt=100,100,100,100,100&d=,,,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
-        "neighborhood": "SOMA",
+    "Atelier Crenn": {
+        "name": "Atelier Crenn",
+        "url": "http://www.opentable.com/atelier-crenn?p=4&sd=2014-11-14 19:30&rid=52849&pt=100,100,100,100,100&d=,,,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "neighborhood": "Marina / Cow Hollow / Presidio",
+        "cuisine": "French",
+        "reviewCount": "104 reviews",
+        "slots": [],
+        "timeWindow": "5:02"
+    },
+    "Rich Table": {
+        "name": "Rich Table",
+        "url": "http://www.opentable.com/rich-table?p=4&sd=2014-11-14 19:30&rid=97309&pt=100,100,100,100,100&d=,,,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "neighborhood": "Civic Center / Hayes Valley / Van Ness",
         "cuisine": "Californian",
-        "reviewCount": "67 reviews",
+        "reviewCount": "203 reviews",
         "slots": [],
         "timeWindow": "5:02"
     },
-    "Manos Nouveau": {
-        "name": "Manos Nouveau",
-        "url": "http://www.opentable.com/manos-nouveau?p=4&sd=2014-11-14 19:30&rid=144853&pt=100,100,100,100,100&d=,,,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
-        "neighborhood": "Mission",
-        "cuisine": "Latin American",
-        "reviewCount": "28 reviews",
+    "Coqueta": {
+        "name": "Coqueta",
+        "url": "http://www.opentable.com/coqueta?p=4&sd=2014-11-14 19:30&rid=103693&pt=100,100,100,100,100&d=,,,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "neighborhood": "Financial District / Embarcadero",
+        "cuisine": "Spanish",
+        "reviewCount": "267 reviews",
         "slots": [],
         "timeWindow": "5:02"
     },
-    "Top of the Mark": {
-        "name": "Top of the Mark",
-        "url": "http://www.opentable.com/top-of-the-mark?p=4&sd=2014-11-14 19:30&rid=2104&pt=100,100,100,100,100&d=,,,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
-        "neighborhood": "Nob Hill",
-        "cuisine": "Californian",
-        "reviewCount": "38 reviews",
-        "slots": [],
-        "timeWindow": "5:02"
-    },
-    "SOMA Restaurant & Bar": {
-        "name": "SOMA Restaurant & Bar",
-        "url": "http://www.opentable.com/soma-restaurant-and-bar?p=4&sd=2014-11-14 19:30&rid=74242&pt=100,100,100,100,100&d=,,,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
-        "neighborhood": "SOMA",
-        "cuisine": "Mediterranean",
-        "reviewCount": "5 reviews",
-        "slots": [],
-        "timeWindow": "5:02"
-    },
-    "Yank Sing - Stevenson Street": {
-        "name": "Yank Sing - Stevenson Street",
-        "url": "http://www.opentable.com/yank-sing-stevenson-street?p=4&sd=2014-11-14 19:30&rid=149527&pt=100,100,100,100,100&d=,,,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
-        "neighborhood": "SOMA",
-        "cuisine": "Dim Sum",
-        "reviewCount": "48 reviews",
-        "slots": [],
-        "timeWindow": "5:02"
-    },
-    "Trattoria da Vittorio": {
-        "name": "Trattoria da Vittorio",
-        "url": "http://www.opentable.com/trattoria-da-vittorio?p=4&sd=2014-11-14 19:30&rid=106066&pt=100,100,100,100,100&d=,,,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
-        "neighborhood": "Forest Hill / West Portal",
-        "cuisine": "Italian",
-        "reviewCount": "10 reviews",
-        "slots": [],
-        "timeWindow": "5:02"
-    },
-    "The Sausage Factory": {
-        "name": "The Sausage Factory",
-        "url": "http://www.opentable.com/the-sausage-factory?p=4&sd=2014-11-14 19:30&rid=140959&pt=100,100,100,100,100&d=,,,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
-        "neighborhood": "Castro",
-        "cuisine": "Italian",
+    "The Prescott Hotel and Events": {
+        "name": "The Prescott Hotel and Events",
+        "url": "http://www.opentable.com/restaurant/profile/1806?p=4&sd=2014-11-14 19:30&rid=1806&pt=100,100,100,100,100&d=,,,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "neighborhood": "Downtown / Union Square",
+        "cuisine": "Contemporary American",
         "reviewCount": "",
         "slots": [],
         "timeWindow": "5:02"
     },
-    "The Rotunda at Neiman Marcus - San Francisco": {
-        "name": "The Rotunda at Neiman Marcus - San Francisco",
-        "url": "http://www.opentable.com/the-rotunda-at-neiman-marcus?p=4&sd=2014-11-14 19:30&rid=889&pt=100,100,100,100,100&d=,,,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
-        "neighborhood": "Downtown / Union Square",
-        "cuisine": "Contemporary American",
-        "reviewCount": "251 reviews",
-        "slots": [],
-        "timeWindow": "5:02"
-    },
-    "Causwells": {
-        "name": "Causwells",
-        "url": "http://www.opentable.com/causwells?p=4&sd=2014-11-14 19:30&rid=149515&pt=100,100,100,100,100&d=,,,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
-        "neighborhood": "Marina / Cow Hollow / Presidio",
-        "cuisine": "American",
-        "reviewCount": "40 reviews",
-        "slots": [],
-        "timeWindow": "5:02"
-    },
-    "nopa - San Francisco": {
-        "name": "nopa - San Francisco",
-        "url": "http://www.opentable.com/nopa-san-francisco?p=4&sd=2014-11-14 19:30&rid=43240&pt=100,100,100,100,100&d=,,,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
-        "neighborhood": "North Panhandle / USF",
-        "cuisine": "Californian",
-        "reviewCount": "198 reviews",
+    "Chino": {
+        "name": "Chino",
+        "url": "http://www.opentable.com/chino?p=4&sd=2014-11-14 19:30&rid=148897&pt=100,100,100,100,100&d=,,,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "neighborhood": "Mission",
+        "cuisine": "Contemporary Asian",
+        "reviewCount": "20 reviews",
         "slots": [],
         "timeWindow": "5:02"
     },
@@ -7559,12 +7397,138 @@
         "slots": [],
         "timeWindow": "5:02"
     },
-    "Bistro 10UN": {
-        "name": "Bistro 10UN",
-        "url": "http://www.opentable.com/bistro-10un?p=4&sd=2014-11-14 19:30&rid=52642&pt=100,100,100,100,100&d=,,,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
-        "neighborhood": "Civic Center / Hayes Valley / Van Ness",
+    "Trattoria da Vittorio": {
+        "name": "Trattoria da Vittorio",
+        "url": "http://www.opentable.com/trattoria-da-vittorio?p=4&sd=2014-11-14 19:30&rid=106066&pt=100,100,100,100,100&d=,,,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "neighborhood": "Forest Hill / West Portal",
+        "cuisine": "Italian",
+        "reviewCount": "10 reviews",
+        "slots": [],
+        "timeWindow": "5:02"
+    },
+    "The Sausage Factory": {
+        "name": "The Sausage Factory",
+        "url": "http://www.opentable.com/the-sausage-factory?p=4&sd=2014-11-14 19:30&rid=140959&pt=100,100,100,100,100&d=,,,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "neighborhood": "Castro",
+        "cuisine": "Italian",
+        "reviewCount": "",
+        "slots": [],
+        "timeWindow": "5:02"
+    },
+    "Tosca Cafe": {
+        "name": "Tosca Cafe",
+        "url": "http://www.opentable.com/tosca-cafe-san-francisco?p=4&sd=2014-11-14 19:30&rid=148891&pt=100,100,100,100,100&d=,,,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "neighborhood": "North Beach",
+        "cuisine": "Italian",
+        "reviewCount": "190 reviews",
+        "slots": [],
+        "timeWindow": "5:02"
+    },
+    "The Rotunda at Neiman Marcus - San Francisco": {
+        "name": "The Rotunda at Neiman Marcus - San Francisco",
+        "url": "http://www.opentable.com/the-rotunda-at-neiman-marcus?p=4&sd=2014-11-14 19:30&rid=889&pt=100,100,100,100,100&d=,,,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "neighborhood": "Downtown / Union Square",
+        "cuisine": "Contemporary American",
+        "reviewCount": "251 reviews",
+        "slots": [],
+        "timeWindow": "5:02"
+    },
+    "Causwells": {
+        "name": "Causwells",
+        "url": "http://www.opentable.com/causwells?p=4&sd=2014-11-14 19:30&rid=149515&pt=100,100,100,100,100&d=,,,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "neighborhood": "Marina / Cow Hollow / Presidio",
         "cuisine": "American",
-        "reviewCount": "19 reviews",
+        "reviewCount": "40 reviews",
+        "slots": [],
+        "timeWindow": "5:02"
+    },
+    "Sociale": {
+        "name": "Sociale",
+        "url": "http://www.opentable.com/sociale?p=4&sd=2014-11-14 19:30&rid=2131&pt=100,100,100,100,100&d=,,,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "neighborhood": "Presidio Heights",
+        "cuisine": "Italian",
+        "reviewCount": "104 reviews",
+        "slots": [],
+        "timeWindow": "5:02"
+    },
+    "Garden Court": {
+        "name": "Garden Court",
+        "url": "http://www.opentable.com/garden-court?p=4&sd=2014-11-14 19:30&rid=2657&pt=100,100,100,100,100&d=,,,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "neighborhood": "Financial District / Embarcadero",
+        "cuisine": "Californian",
+        "reviewCount": "62 reviews",
+        "slots": [],
+        "timeWindow": "5:02"
+    },
+    "Cioppino's On The Wharf": {
+        "name": "Cioppino's On The Wharf",
+        "url": "http://www.opentable.com/cioppinos-on-the-wharf?p=4&sd=2014-11-14 19:30&rid=12730&pt=100,100,100,100,100&d=,,,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "neighborhood": "Fisherman's Wharf",
+        "cuisine": "Seafood",
+        "reviewCount": "63 reviews",
+        "slots": [],
+        "timeWindow": "5:02"
+    },
+    "Vitrine - St Regis Hotel San Francisco": {
+        "name": "Vitrine - St Regis Hotel San Francisco",
+        "url": "http://www.opentable.com/vitrine-st-regis-hotel-san-francisco?p=4&sd=2014-11-14 19:30&rid=16615&pt=100,100,100,100,100&d=,,,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "neighborhood": "SOMA",
+        "cuisine": "American",
+        "reviewCount": "11 reviews",
+        "slots": [],
+        "timeWindow": "5:02"
+    },
+    "Ichi Sushi & Ni Bar": {
+        "name": "Ichi Sushi & Ni Bar",
+        "url": "http://www.opentable.com/ichi-sushi-and-ni-bar?p=4&sd=2014-11-14 19:30&rid=117262&pt=100,100,100,100,100&d=,,,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "neighborhood": "Mission",
+        "cuisine": "Japanese",
+        "reviewCount": "70 reviews",
+        "slots": [],
+        "timeWindow": "5:02"
+    },
+    "Yank Sing - Stevenson Street": {
+        "name": "Yank Sing - Stevenson Street",
+        "url": "http://www.opentable.com/yank-sing-stevenson-street?p=4&sd=2014-11-14 19:30&rid=149527&pt=100,100,100,100,100&d=,,,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "neighborhood": "SOMA",
+        "cuisine": "Dim Sum",
+        "reviewCount": "48 reviews",
+        "slots": [],
+        "timeWindow": "5:02"
+    },
+    "Woodwards Garden": {
+        "name": "Woodwards Garden",
+        "url": "http://www.opentable.com/woodwards-garden?p=4&sd=2014-11-14 19:30&rid=44986&pt=100,100,100,100,100&d=,,,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "neighborhood": "Mission",
+        "cuisine": "American",
+        "reviewCount": "50 reviews",
+        "slots": [],
+        "timeWindow": "5:02"
+    },
+    "Maruya": {
+        "name": "Maruya",
+        "url": "http://www.opentable.com/maruya?p=4&sd=2014-11-14 19:30&rid=114487&pt=100,100,100,100,100&d=,,,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "neighborhood": "Mission",
+        "cuisine": "Japanese",
+        "reviewCount": "35 reviews",
+        "slots": [],
+        "timeWindow": "5:02"
+    },
+    "KUSAKABE": {
+        "name": "KUSAKABE",
+        "url": "http://www.opentable.com/kusakabe?p=4&sd=2014-11-14 19:30&rid=149539&pt=100,100,100,100,100&d=,,,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "neighborhood": "Financial District / Embarcadero",
+        "cuisine": "Sushi",
+        "reviewCount": "59 reviews",
+        "slots": [],
+        "timeWindow": "5:02"
+    },
+    "Perry's - Design Center": {
+        "name": "Perry's - Design Center",
+        "url": "http://www.opentable.com/perrys-design-center?p=4&sd=2014-11-14 19:30&rid=43684&pt=100,100,100,100,100&d=,,,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "neighborhood": "Potrero Hill / Dogpatch",
+        "cuisine": "American",
+        "reviewCount": "3 reviews",
         "slots": [],
         "timeWindow": "5:02"
     },
@@ -7583,6 +7547,24 @@
         "neighborhood": "Downtown / Union Square",
         "cuisine": "Californian",
         "reviewCount": "14 reviews",
+        "slots": [],
+        "timeWindow": "5:02"
+    },
+    "Marlowe": {
+        "name": "Marlowe",
+        "url": "http://www.opentable.com/marlowe?p=4&sd=2014-11-14 19:30&rid=15424&pt=100,100,100,100,100&d=,,,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "neighborhood": "SOMA",
+        "cuisine": "American",
+        "reviewCount": "132 reviews",
+        "slots": [],
+        "timeWindow": "5:02"
+    },
+    "Gaspar Brasserie": {
+        "name": "Gaspar Brasserie",
+        "url": "http://www.opentable.com/gaspar-brasserie?p=4&sd=2014-11-14 19:30&rid=144124&pt=100,100,100,100,100&d=,,,,&ofbs=,,,,&dt=2014-11-14T19:30:00Z",
+        "neighborhood": "Financial District / Embarcadero",
+        "cuisine": "French",
+        "reviewCount": "135 reviews",
         "slots": [],
         "timeWindow": "5:02"
     }

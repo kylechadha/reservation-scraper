@@ -46,6 +46,9 @@ a {
     background-color: lighten(#AC9456, 10%);
   }
 }
+.form-group {
+  margin-right: 10px;
+}
 .bootstrap-datetimepicker-widget td.active {
   background-color: #AC9456;
   &:hover,
@@ -53,9 +56,6 @@ a {
   &:focus {
     background-color: lighten(#AC9456, 10%);
   }
-}
-.form-group {
-  margin-right: 10px;
 }
 
 
